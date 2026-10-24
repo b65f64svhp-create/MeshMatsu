@@ -1,0 +1,17 @@
+{
+  "method": "exact whitespace-normalized noncomment lines at least 60 characters; generated assets/enums excluded; not a legal clearance",
+  "app_files": 154,
+  "reference_files": 1812,
+  "matches": [
+    {
+      "app": "main/main.c",
+      "reference": "tanmatsu-meshtastic-ui/main/main.cpp",
+      "line_pairs": [
+        [
+          2224,
+          20
+        ]
+      ]
+    }
+  ]
+}

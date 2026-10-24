@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-10-23",
+  "source_repository": "https://github.com/Nicolai-Electronics/tanmatsu-meshtastic-v2",
+  "source_commit": "3b58bccdec599fa6bf20f3affe216a01c2fc553c",
+  "source_path": "src/mesh/generated/meshtastic/mesh.pb.h",
+  "source_sha256": "08d0a198b21126010a83a400591fa9391792d813603a34d68b675473c5658dea",
+  "license": "GPL-3.0",
+  "local_path": "main/hardware_models.inc",
+  "local_sha256": "afe356637463af6a35f4cfd55df9a4b45b80dcda5b4e2e5b68c397205173249e",
+  "matching_entries": 122,
+  "transformation": "HardwareModel numeric values and labels extracted from checked-in generated header; other schema content omitted.",
+  "schema_difference": "Pinned protobufs f78b3f0 has NRF52840DK at ID 33; the firmware checked-in generated header and existing app both use T_ECHO_PLUS. Do not claim the schema and generated header are identical.",
+  "treatment": "Preserved as GPL-covered upstream-derived material; no MIT relicensing asserted."
+}

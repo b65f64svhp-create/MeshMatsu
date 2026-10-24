@@ -1,0 +1,25 @@
+# Local SDKs, dependency caches and build outputs
+/build/
+/managed_components/
+/esp-idf/
+/esp-idf-tools/
+/vendor/esp-idf/
+/badgelink/
+.IDF_PATH
+.IDF_TOOLS_PATH
+sdkconfig*.old
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.env.*
+# User data and release downloads never belong in source history
+/device-backups/
+/exports/
+/output/
+/maps/
+*.mmk
+*.mmb
+*.msa
+*.mmap

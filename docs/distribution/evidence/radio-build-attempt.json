@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-10-23",
+  "source_repository": "https://github.com/Nicolai-Electronics/tanmatsu-meshtastic-v2",
+  "source_commit": "3b58bccdec599fa6bf20f3affe216a01c2fc553c",
+  "protobuf_submodule": "f78b3f0dcc078372c90493945155081648605699",
+  "platformio": "6.1.18",
+  "environment": "tanmatsu",
+  "status": "dependency download failed before compilation",
+  "platform_url": "https://github.com/Jason2866/platform-espressif32/archive/22faa566df8c789000f8136cd8d0aca49617af55.zip",
+  "missing_framework_url": "https://github.com/Jason2866/esp32-arduino-lib-builder/releases/download/2977/framework-arduinoespressif32-all-release_v5.1-124d64e.zip",
+  "http_status": 404,
+  "dependency_substituted": false,
+  "device_contacted": false
+}

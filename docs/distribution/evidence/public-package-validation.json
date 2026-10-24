@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-23",
+  "production_source_matches_frozen_v62": true,
+  "clean_exported_source_device_build": "passed",
+  "dependency_lock_unchanged": true,
+  "clean_build_binary_bytes": 1830400,
+  "clean_build_binary_sha256": "aeb315dc597b62137d4b3c2760e6f8f25d6d61cd633094568975b988e4c70957",
+  "matches_installed_binary_bytes": false,
+  "reproducibility_claimed": false,
+  "upstream_unused_symbol_warnings": 5,
+  "host_suites": 111,
+  "python_suites": 45,
+  "c_suites": 66,
+  "installer_transport": "simulated, no USB",
+  "installer_assertions": "corrupt package/path/symlink rejection, prior app backup validation, newer-version rejection, transport failure stops writes, CRC/icon failure prevents launch",
+  "public_publication_approved": false,
+  "radio_flashing_performed": false,
+  "separate_crypto_harness": "passed: actual PSA X25519/PBKDF2/AES-GCM and encrypted SD operations, independently decrypted with Python cryptography"
+}

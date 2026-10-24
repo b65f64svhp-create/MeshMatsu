@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "status": "DRAFT_NOT_APPROVED",
+  "approved_for_flashing": false,
+  "target": {
+    "device": "tanmatsu",
+    "chip": "esp32c6",
+    "build_environment": "tanmatsu"
+  },
+  "candidate_source_reference": {
+    "repository": "https://github.com/Nicolai-Electronics/tanmatsu-meshtastic-v2.git",
+    "commit": "3b58bccdec599fa6bf20f3affe216a01c2fc553c",
+    "version": "2.7.18",
+    "matches_running_device": null
+  },
+  "verified_reported_device_version": "2.7.18",
+  "files": {
+    "bootloader": null,
+    "partition_table": null,
+    "application": null
+  },
+  "installation_mode": null,
+  "erase_required": null,
+  "corresponding_source_bundle": null,
+  "stock_radio_recovery_bundle": null,
+  "physical_validation": null,
+  "note": "Source reference is not an approved radio binary; do not substitute the old 2.6.7 preview files.",
+  "device_version_evidence": "../evidence/device-firmware-report.json",
+  "candidate_download_evidence": "../evidence/manufacturer-radio-candidates.json",
+  "source_build_attempt": "../evidence/radio-build-attempt.json"
+}

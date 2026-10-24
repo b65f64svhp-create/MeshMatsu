@@ -1,0 +1,2655 @@
+{
+  "date_local": "2026-10-23",
+  "timezone": "America/Edmonton",
+  "status": "review evidence, not public release clearance",
+  "release": {
+    "version": 62,
+    "binary_bytes": 1830400,
+    "binary_sha256": "b6375ec5dea2726f96562685b4d05e9d57cc348ee4fb7dec0ddab033e4508303",
+    "manifest_sha256": "63401dcc15dd0693c14f49738e6ff70d2e3f9e1f25748351aa91735e4471ee92"
+  },
+  "dependencies_lock_sha256": "58b4cc81fd7dc20a4afb0333d6407ce7a21bd8786a3d52571bac1dcb90de345f",
+  "link_map_sha256": "ae1264b7ad25e9c4b7fcd6c9c94f5a345276a87d58474b8aefc4b3dde0707966",
+  "archives_seen_in_live_map": [
+    "esp-idf/badgeteam__badge-bsp/libbadgeteam__badge-bsp.a",
+    "esp-idf/badgeteam__badge-bsp/libbsp_stub.a",
+    "esp-idf/bootloader_support/libbootloader_support.a",
+    "esp-idf/bt/libbt.a",
+    "esp-idf/console/libconsole.a",
+    "esp-idf/cxx/libcxx.a",
+    "esp-idf/efuse/libefuse.a",
+    "esp-idf/esp_app_format/libesp_app_format.a",
+    "esp-idf/esp_common/libesp_common.a",
+    "esp-idf/esp_driver_dma/libesp_driver_dma.a",
+    "esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+    "esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+    "esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+    "esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a",
+    "esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
+    "esp-idf/esp_driver_uart/libesp_driver_uart.a",
+    "esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
+    "esp-idf/esp_event/libesp_event.a",
+    "esp-idf/esp_hal_clock/libesp_hal_clock.a",
+    "esp-idf/esp_hal_dma/libesp_hal_dma.a",
+    "esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
+    "esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
+    "esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
+    "esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
+    "esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
+    "esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
+    "esp-idf/esp_hal_sd/libesp_hal_sd.a",
+    "esp-idf/esp_hal_security/libesp_hal_security.a",
+    "esp-idf/esp_hal_uart/libesp_hal_uart.a",
+    "esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
+    "esp-idf/esp_hw_support/libesp_hw_support.a",
+    "esp-idf/esp_lcd/libesp_lcd.a",
+    "esp-idf/esp_libc/libesp_libc.a",
+    "esp-idf/esp_mm/libesp_mm.a",
+    "esp-idf/esp_netif/libesp_netif.a",
+    "esp-idf/esp_partition/libesp_partition.a",
+    "esp-idf/esp_pm/libesp_pm.a",
+    "esp-idf/esp_psram/libesp_psram.a",
+    "esp-idf/esp_ringbuf/libesp_ringbuf.a",
+    "esp-idf/esp_rom/libesp_rom.a",
+    "esp-idf/esp_security/libesp_security.a",
+    "esp-idf/esp_stdio/libesp_stdio.a",
+    "esp-idf/esp_system/libesp_system.a",
+    "esp-idf/esp_timer/libesp_timer.a",
+    "esp-idf/espressif__esp_lcd_st7701/libespressif__esp_lcd_st7701.a",
+    "esp-idf/fatfs/libfatfs.a",
+    "esp-idf/freertos/libfreertos.a",
+    "esp-idf/hal/libhal.a",
+    "esp-idf/heap/libheap.a",
+    "esp-idf/log/liblog.a",
+    "esp-idf/lwip/liblwip.a",
+    "esp-idf/main/libmain.a",
+    "esp-idf/mbedtls/libmbedtls.a",
+    "esp-idf/mbedtls/mbedtls/library/libmbedtls.a",
+    "esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a",
+    "esp-idf/nicolaielectronics__bmi270/libnicolaielectronics__bmi270.a",
+    "esp-idf/nicolaielectronics__es8156/libnicolaielectronics__es8156.a",
+    "esp-idf/nicolaielectronics__esp-hosted-tanmatsu/libnicolaielectronics__esp-hosted-tanmatsu.a",
+    "esp-idf/nicolaielectronics__esp-wifi-remote-tanmatsu/libnicolaielectronics__esp-wifi-remote-tanmatsu.a",
+    "esp-idf/nicolaielectronics__mipi_dsi_abstraction/libnicolaielectronics__mipi_dsi_abstraction.a",
+    "esp-idf/nicolaielectronics__tanmatsu-wifi/libnicolaielectronics__tanmatsu-wifi.a",
+    "esp-idf/nicolaielectronics__tanmatsu_coprocessor/libnicolaielectronics__tanmatsu_coprocessor.a",
+    "esp-idf/nvs_flash/libnvs_flash.a",
+    "esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
+    "esp-idf/pthread/libpthread.a",
+    "esp-idf/riscv/libriscv.a",
+    "esp-idf/robotman2412__pax-gfx/librobotman2412__pax-gfx.a",
+    "esp-idf/sdmmc/libsdmmc.a",
+    "esp-idf/soc/libsoc.a",
+    "esp-idf/spi_flash/libspi_flash.a",
+    "esp-idf/vfs/libvfs.a",
+    "esp-idf/wear_levelling/libwear_levelling.a"
+  ],
+  "sdk": {
+    "origin": "https://github.com/espressif/esp-idf.git",
+    "commit": "7101770dc6db2667b3c477cc31365dd1acd6db4e",
+    "describe": "v6.0.2"
+  },
+  "compiler_version": "riscv32-esp-elf-gcc (crosstool-NG esp-15.2.0_20251204) 15.2.0",
+  "template": {
+    "origin": "https://github.com/Nicolai-Electronics/tanmatsu-template.git",
+    "commit": "bee2618df32f67008f9434a4ef5c095a94bd82f4",
+    "grant": "CC0-1.0 in README"
+  },
+  "firmware_reference": {
+    "origin": "https://github.com/Nicolai-Electronics/tanmatsu-meshtastic-v2.git",
+    "commit": "3b58bccdec599fa6bf20f3affe216a01c2fc553c",
+    "working_tree_clean": true,
+    "version_properties": "[VERSION]  \nmajor = 2\nminor = 7\nbuild = 18\n",
+    "variant": "variants/esp32c6/tanmatsu",
+    "binary_attestation": "not established; source reference is not a device image checksum"
+  },
+  "managed_components": [
+    {
+      "name": "badgeteam/badge-bsp",
+      "locked": {
+        "component_hash": "864bd0250dab247401845c8d8039c28697606c21f529a3dd3b982ed31eee0f4c",
+        "version": "1.1.0"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/badgeteam/esp32-component-badge-bsp.git",
+        "url": "https://github.com/badgeteam/esp32-component-badge-bsp",
+        "version": "1.1.0"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/badgeteam__badge-bsp/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "common/badge_bsp_input_hooks.c",
+          "common/badge_bsp_input_hooks.h",
+          "stub/badge_bsp_audio.c",
+          "stub/badge_bsp_device.c",
+          "stub/badge_bsp_display.c",
+          "stub/badge_bsp_i2c.c",
+          "stub/badge_bsp_input.c",
+          "stub/badge_bsp_led.c",
+          "stub/badge_bsp_orientation.c",
+          "stub/badge_bsp_power.c",
+          "stub/badge_bsp_rtc.c",
+          "targets/bornhack-2024-pov/badge_bsp_device.c",
+          "targets/bornhack-2024-pov/badge_bsp_i2c.c",
+          "targets/bornhack-2024-pov/badge_bsp_input.c",
+          "targets/bornhack-2024-pov/badge_bsp_led.c",
+          "targets/bornhack-2024-pov/bh24_hardware.h",
+          "targets/bornhack-2025-circle/badge_bsp_device.c",
+          "targets/bornhack-2025-circle/badge_bsp_display.c",
+          "targets/bornhack-2025-circle/badge_bsp_input.c",
+          "targets/bornhack-2025-circle/badge_bsp_led.c",
+          "targets/bornhack-2025-circle/circle_hardware.h",
+          "targets/esp32-p4-function-ev-board/badge_bsp_device.c",
+          "targets/esp32-p4-function-ev-board/badge_bsp_display.c",
+          "targets/esp32-p4-function-ev-board/badge_bsp_i2c.c",
+          "targets/hackaday2025/badge_bsp_display.c",
+          "targets/hackaday2025/badge_bsp_i2c.c",
+          "targets/hackaday2025/badge_bsp_input.c",
+          "targets/hackaday2025/hackaday2025_hardware.h",
+          "targets/hackerhotel-2024/badge_bsp_device.c",
+          "targets/hackerhotel-2024/badge_bsp_display.c",
+          "targets/hackerhotel-2024/badge_bsp_i2c.c",
+          "targets/hackerhotel-2024/badge_bsp_input.c",
+          "targets/hackerhotel-2024/badge_bsp_led.c",
+          "targets/hackerhotel-2024/hackerhotel2024_hardware.h",
+          "targets/heltecv3/badge_bsp_display.c",
+          "targets/heltecv3/badge_bsp_i2c.c",
+          "targets/heltecv3/badge_bsp_input.c",
+          "targets/heltecv3/heltecv3_hardware.h",
+          "targets/kami/badge_bsp_device.c",
+          "targets/kami/badge_bsp_display.c",
+          "targets/kami/badge_bsp_i2c.c",
+          "targets/kami/badge_bsp_input.c",
+          "targets/kami/badge_bsp_led.c",
+          "targets/kami/badge_bsp_power.c",
+          "targets/kami/kami_hardware.h",
+          "targets/mch2022/badge_bsp_audio.c",
+          "targets/mch2022/badge_bsp_device.c",
+          "targets/mch2022/badge_bsp_display.c",
+          "targets/mch2022/badge_bsp_i2c.c",
+          "targets/mch2022/badge_bsp_input.c",
+          "targets/mch2022/badge_bsp_power.c",
+          "targets/mch2022/mch2022_hardware.h",
+          "targets/tanmatsu/badge_bsp_audio.c",
+          "targets/tanmatsu/badge_bsp_device.c",
+          "targets/tanmatsu/badge_bsp_display.c",
+          "targets/tanmatsu/badge_bsp_i2c.c",
+          "targets/tanmatsu/badge_bsp_input.c",
+          "targets/tanmatsu/badge_bsp_led.c",
+          "targets/tanmatsu/badge_bsp_orientation.c",
+          "targets/tanmatsu/badge_bsp_power.c",
+          "targets/tanmatsu/badge_bsp_rtc.c",
+          "targets/tanmatsu/tanmatsu_hardware.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2024 Nicolai Electronics",
+        "SPDX-FileCopyrightText: 2024 Orange-Murker",
+        "SPDX-FileCopyrightText: 2024-2025 Nicolai Electronics",
+        "SPDX-FileCopyrightText: 2025 Julian Scheffers",
+        "SPDX-FileCopyrightText: 2025 Julian Schefferss",
+        "SPDX-FileCopyrightText: 2025 Nicolai Electronics",
+        "SPDX-FileCopyrightText: 2025 Rene Schickbauer",
+        "SPDX-FileCopyrightText: 2026 Nicolai Electronics",
+        "SPDX-FileCopyrightText: 2026 Orange-Murker"
+      ]
+    },
+    {
+      "name": "badgeteam/custom-certificates",
+      "locked": {
+        "component_hash": "fe511ea8c8301bfc0a148d4458d5f2f3129ddc0d60c0fb4e8c720e256f7e73ce",
+        "version": "1.1.0"
+      },
+      "manifest": {
+        "repository": "git://github.com/badgeteam/esp32-component-custom-certificates.git",
+        "version": "1.1.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/badgeteam__custom-certificates/LICENSE"
+      ],
+      "header_spdx": {},
+      "copyright_headers": []
+    },
+    {
+      "name": "espressif/cmake_utilities",
+      "locked": {
+        "component_hash": "351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f",
+        "version": "0.5.3"
+      },
+      "manifest": {
+        "url": "https://github.com/espressif/esp-iot-solution/tree/master/tools/cmake_utilities",
+        "version": "0.5.3"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__cmake_utilities/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "scripts/gen_custom_ota.py",
+          "scripts/relinker/configuration.py",
+          "scripts/relinker/relinker.py",
+          "test_apps/main/test_cmake_utilities.c"
+        ]
+      },
+      "copyright_headers": [
+        "# SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/eppp_link",
+      "locked": {
+        "component_hash": "c1369b37f2b0b427b198ae14e07e7547d3da92b95fe4dc7f949e5de560b35f21",
+        "version": "1.1.6"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-protocols.git",
+        "url": "https://github.com/espressif/esp-protocols/tree/master/components/eppp_link",
+        "version": "1.1.6"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__eppp_link/LICENSE"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "eppp_eth.c",
+          "eppp_link.c",
+          "eppp_link_netif.cpp",
+          "eppp_netif_tun.c",
+          "eppp_sdio.c",
+          "eppp_sdio.h",
+          "eppp_sdio_host.c",
+          "eppp_sdio_slave.c",
+          "eppp_spi.c",
+          "eppp_transport.h",
+          "eppp_uart.c",
+          "include/eppp_link.h",
+          "include/eppp_transport_eth.h",
+          "include/eppp_transport_sdio.h",
+          "include/eppp_transport_spi.h",
+          "include/eppp_transport_uart.h"
+        ],
+        "Unlicense OR CC0-1.0": [
+          "examples/host/main/app_main.c",
+          "examples/host/main/channel_wifi_station.c",
+          "examples/host/main/register_iperf.c",
+          "examples/slave/main/channel_wifi_station.c",
+          "examples/slave/main/eppp_slave.c",
+          "test/test_app/main/app_main.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2019-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2026 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_ek79007",
+      "locked": {
+        "component_hash": "c5a0501fbab972031026aa6144354b31ed6db899cf2ee5a22ca4ebaf3fea1657",
+        "version": "2.0.2~1"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-iot-solution.git",
+        "url": "https://github.com/espressif/esp-iot-solution/tree/master/components/display/lcd/esp_lcd_ek79007",
+        "version": "2.0.2~1"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_ek79007/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_ek79007.c",
+          "include/esp_lcd_ek79007.h",
+          "test_apps/main/test_esp_lcd_ek79007.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_ili9341",
+      "locked": {
+        "component_hash": "0baab584e0e490511d6bdbae6aa045130424d732ecdaad6cd1d3bd3c0abe2c30",
+        "version": "2.0.2"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-bsp.git",
+        "url": "https://github.com/espressif/esp-bsp/tree/master/components/lcd/esp_lcd_ili9341",
+        "version": "2.0.2"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_ili9341/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_ili9341.c",
+          "include/esp_lcd_ili9341.h",
+          "include/esp_lcd_ili9341_init_cmds_1.h",
+          "include/esp_lcd_ili9341_init_cmds_2.h"
+        ],
+        "CC0-1.0": [
+          "test_apps/main/test_esp_lcd_ili9341.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_ili9881c",
+      "locked": {
+        "component_hash": "0288df12755c95d406ccea245a427595f314df0b14a61846286d926ea6f3698e",
+        "version": "1.1.0"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-bsp.git",
+        "url": "https://github.com/espressif/esp-bsp/tree/master/components/lcd/esp_lcd_ili9881c",
+        "version": "1.1.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_ili9881c/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_ili9881c.c",
+          "include/esp_lcd_ili9881c.h",
+          "test_apps/main/test_esp_lcd_ili9881c.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_lt8912b",
+      "locked": {
+        "component_hash": "f954a3393c8e16159f0c7448c9f4312b58933a53563fe5173db5f63a2b0f7aa7",
+        "version": "0.2.0"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-bsp.git",
+        "url": "https://github.com/espressif/esp-bsp/tree/master/components/lcd/esp_lcd_lt8912b",
+        "version": "0.2.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_lt8912b/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_lt8912b.c",
+          "include/esp_lcd_lt8912b.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_st7701",
+      "locked": {
+        "component_hash": "924f346e36da39aaa38177e21bd360b5442abc792338fb64ad1e644481255898",
+        "version": "2.0.2~2"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-iot-solution.git",
+        "url": "https://github.com/espressif/esp-iot-solution/tree/master/components/display/lcd/esp_lcd_st7701",
+        "version": "2.0.2~2"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_st7701/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_st7701.c",
+          "esp_lcd_st7701_mipi.c",
+          "esp_lcd_st7701_rgb.c",
+          "include/esp_lcd_st7701.h",
+          "priv_include/esp_lcd_st7701_interface.h",
+          "test_apps/main/test_app_main.c",
+          "test_apps/main/test_esp_lcd_st7701_mipi.c",
+          "test_apps/main/test_esp_lcd_st7701_rgb.c",
+          "test_apps/pytest_esp_lcd_st7701.py"
+        ]
+      },
+      "copyright_headers": [
+        "# SPDX-FileCopyrightText: 2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_touch",
+      "locked": {
+        "component_hash": "3f85a7d95af876f1a6ecca8eb90a81614890d0f03a038390804e5a77e2caf862",
+        "version": "1.2.1"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-bsp.git",
+        "url": "https://github.com/espressif/esp-bsp/tree/master/components/lcd_touch/esp_lcd_touch",
+        "version": "1.2.1"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_touch/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_touch.c",
+          "include/esp_lcd_touch.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2015-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_lcd_touch_gt911",
+      "locked": {
+        "component_hash": "07f678e4202d79bbad917805dcec4134ff08344177720f32ec4898267ad9e394",
+        "version": "1.2.0~3"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/esp-bsp.git",
+        "url": "https://github.com/espressif/esp-bsp/tree/master/components/lcd_touch/esp_lcd_touch_gt911",
+        "version": "1.2.0~3"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_lcd_touch_gt911/license.txt"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_lcd_touch_gt911.c",
+          "include/esp_lcd_touch_gt911.h",
+          "test_apps/main/compilation_test.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2015-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2026 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/esp_serial_slave_link",
+      "locked": {
+        "component_hash": "ac1776806de0a6e371c84e87898bb983e19ce62aa7f1e2e5c4a3b0234a575d2c",
+        "version": "1.1.2"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/idf-extra-components.git",
+        "url": "https://github.com/espressif/idf-extra-components/tree/master/esp_serial_slave_link",
+        "version": "1.1.2"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__esp_serial_slave_link/LICENSE"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "essl.c",
+          "essl_internal.h",
+          "essl_sdio.c",
+          "essl_sdio_defs.c",
+          "essl_spi.c",
+          "include/esp_serial_slave_link/essl.h",
+          "include/esp_serial_slave_link/essl_sdio.h",
+          "include/esp_serial_slave_link/essl_sdio_defs.h",
+          "include/esp_serial_slave_link/essl_spi.h",
+          "include/essl_spi/esp32c2_defs.h",
+          "include/essl_spi/esp32c3_defs.h",
+          "include/essl_spi/esp32s2_defs.h",
+          "include/essl_spi/esp32s3_defs.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2022 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/led_strip",
+      "locked": {
+        "component_hash": "28621486f77229aaf81c71f5e15d6fbf36c2949cf11094e07090593e659e7639",
+        "version": "3.0.3"
+      },
+      "manifest": {
+        "repository": "git://github.com/espressif/idf-extra-components.git",
+        "url": "https://github.com/espressif/idf-extra-components/tree/master/led_strip",
+        "version": "3.0.3"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/espressif__led_strip/LICENSE"
+      ],
+      "header_spdx": {
+        "Unlicense OR CC0-1.0": [
+          "examples/led_strip_rmt_ws2812/main/led_strip_rmt_ws2812_main.c",
+          "examples/led_strip_spi_ws2812/main/led_strip_spi_ws2812_main.c"
+        ],
+        "Apache-2.0": [
+          "include/led_strip.h",
+          "include/led_strip_rmt.h",
+          "include/led_strip_spi.h",
+          "include/led_strip_types.h",
+          "interface/led_strip_interface.h",
+          "src/led_strip_api.c",
+          "src/led_strip_rmt_dev.c",
+          "src/led_strip_rmt_encoder.c",
+          "src/led_strip_rmt_encoder.h",
+          "src/led_strip_spi_dev.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2022 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "espressif/wifi_remote_over_eppp",
+      "locked": {
+        "component_hash": "1fd6968af20f0b19e421f6b519b0a8caf81d689afc3783b564c28559e45f66ef",
+        "version": "0.3.3"
+      },
+      "manifest": {
+        "license": "Apache-2.0",
+        "repository": "git://github.com/espressif/esp-wifi-remote.git",
+        "url": "https://github.com/espressif/esp-wifi-remote/components/wifi_remote_over_eppp",
+        "version": "0.3.3"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [],
+      "header_spdx": {
+        "Unlicense OR CC0-1.0": [
+          "examples/server/main/station_example_main.c",
+          "tests/sample/main/sample.c"
+        ],
+        "Apache-2.0": [
+          "src/eppp_init.c",
+          "src/wifi_remote_rpc_client.cpp",
+          "src/wifi_remote_rpc_impl.hpp",
+          "src/wifi_remote_rpc_params.h",
+          "src/wifi_remote_rpc_server.cpp"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2023-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/bmi270",
+      "locked": {
+        "component_hash": "4eba2761d6fc2ea032c3e5321e594680f0a47a53ae76323a129628e16af38a0c",
+        "version": "1.0.1"
+      },
+      "manifest": {
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-bmi270.git",
+        "version": "1.0.1"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__bmi270/LICENSE",
+        "licenses/components/nicolaielectronics__bmi270/bmi270_sensor_api/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "bmi270_interface.c",
+          "bmi270_interface.h"
+        ],
+        "BSD-3-Clause": [
+          "bmi270_sensor_api/bmi270_context_examples/accel/accel.c",
+          "bmi270_sensor_api/bmi270_context_examples/accel_foc/accel_foc.c",
+          "bmi270_sensor_api/bmi270_context_examples/accel_gyro/accel_gyro.c",
+          "bmi270_sensor_api/bmi270_context_examples/activity_recognition/activity_recognition.c",
+          "bmi270_sensor_api/bmi270_context_examples/aux_fifo_full_header_mode/aux_fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/aux_fifo_full_headerless_mode/aux_fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/aux_fifo_watermark_header_mode/aux_fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/aux_fifo_watermark_headerless_mode/aux_fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/common/common.c",
+          "bmi270_sensor_api/bmi270_context_examples/common/common.h",
+          "bmi270_sensor_api/bmi270_context_examples/common/ois_common.c",
+          "bmi270_sensor_api/bmi270_context_examples/common/ois_common.h",
+          "bmi270_sensor_api/bmi270_context_examples/component_retrim/component_retrim.c",
+          "bmi270_sensor_api/bmi270_context_examples/fifo_full_header_mode/fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/fifo_full_headerless_mode/fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/fifo_watermark_header_mode/fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/fifo_watermark_headerless_mode/fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/gyro/gyro.c",
+          "bmi270_sensor_api/bmi270_context_examples/gyro_foc/gyro_foc.c",
+          "bmi270_sensor_api/bmi270_context_examples/read_aux_data_mode/read_aux_data_mode.c",
+          "bmi270_sensor_api/bmi270_context_examples/step_counter/step_counter.c",
+          "bmi270_sensor_api/bmi270_context_examples/temperature/temperature.c",
+          "bmi270_sensor_api/bmi270_examples/accel/accel.c",
+          "bmi270_sensor_api/bmi270_examples/accel_foc/accel_foc.c",
+          "bmi270_sensor_api/bmi270_examples/accel_gyro/accel_gyro.c",
+          "bmi270_sensor_api/bmi270_examples/accel_gyro_hw_int/accel_gyro_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/accel_hw_int/accel_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/any_motion_interrupt/any_motion_interrupt.c",
+          "bmi270_sensor_api/bmi270_examples/any_motion_interrupt_hw_int/any_motion_interrupt_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_full_header_mode/aux_fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_full_header_mode_hw_int/aux_fifo_full_header_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_full_headerless_mode/aux_fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_full_headerless_mode_hw_int/aux_fifo_full_headerless_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_watermark_header_mode/aux_fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_watermark_header_mode_hw_int/aux_fifo_watermark_header_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_watermark_headerless_mode/aux_fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_examples/aux_fifo_watermark_headerless_mode_hw_int/aux_fifo_watermark_headerless_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/axis_remap/axis_remap.c",
+          "bmi270_sensor_api/bmi270_examples/axis_remap_hw_int/axis_remap_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/common/common.c",
+          "bmi270_sensor_api/bmi270_examples/common/common.h",
+          "bmi270_sensor_api/bmi270_examples/common/ois_common.c",
+          "bmi270_sensor_api/bmi270_examples/common/ois_common.h",
+          "bmi270_sensor_api/bmi270_examples/component_retrim/component_retrim.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_full_header_mode/fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_full_header_mode_hw_int/fifo_full_header_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_full_headerless_mode/fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_full_headerless_mode_hw_int/fifo_full_headerless_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_watermark_header_mode/fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_watermark_header_mode_hw_int/fifo_watermark_header_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_watermark_headerless_mode/fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_examples/fifo_watermark_headerless_mode_hw_int/fifo_watermark_headerless_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/gyro/gyro.c",
+          "bmi270_sensor_api/bmi270_examples/gyro_foc/gyro_foc.c",
+          "bmi270_sensor_api/bmi270_examples/gyro_hw_int/gyro_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/no_motion_interrupt/no_motion_interrupt.c",
+          "bmi270_sensor_api/bmi270_examples/no_motion_interrupt_hw_int/no_motion_interrupt_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/read_aux_data_mode/read_aux_data_mode.c",
+          "bmi270_sensor_api/bmi270_examples/read_aux_data_mode_hw_int/read_aux_data_mode_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/sig_motion/sig_motion.c",
+          "bmi270_sensor_api/bmi270_examples/sig_motion_hw_int/sig_motion_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/step_activity/step_activity.c",
+          "bmi270_sensor_api/bmi270_examples/step_activity_hw_int/step_activity_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/step_counter/step_counter.c",
+          "bmi270_sensor_api/bmi270_examples/step_counter_hw_int/step_counter_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/temperature/temperature.c",
+          "bmi270_sensor_api/bmi270_examples/wrist_gesture/wrist_gesture.c",
+          "bmi270_sensor_api/bmi270_examples/wrist_gesture_hw_int/wrist_gesture_hw_int.c",
+          "bmi270_sensor_api/bmi270_examples/wrist_wear_wakeup/wrist_wear_wakeup.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/accel/accel.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/accel_foc/accel_foc.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/accel_gyro/accel_gyro.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/any_motion/any_motion.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/aux_fifo_full_header_mode/aux_fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/aux_fifo_full_headerless_mode/aux_fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/aux_fifo_watermark_header_mode/aux_fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/aux_fifo_watermark_headerless_mode/aux_fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/axis_remap/axis_remap.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/common/common.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/common/common.h",
+          "bmi270_sensor_api/bmi270_legacy_examples/common/ois_common.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/common/ois_common.h",
+          "bmi270_sensor_api/bmi270_legacy_examples/component_retrim/component_retrim.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/fifo_full_header_mode/fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/fifo_full_headerless_mode/fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/fifo_watermark_header_mode/fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/fifo_watermark_headerless_mode/fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/flat/flat.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/g_detection/g_detection.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/gyro/gyro.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/gyro_foc/gyro_foc.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/no_motion/no_motion.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/orient/orient.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/read_aux_data_mode/read_aux_data_mode.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/sig_motion/sig_motion.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/step_activity/step_activity.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/step_counter/step_counter.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/tap/tap.c",
+          "bmi270_sensor_api/bmi270_legacy_examples/temperature/temperature.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/accel/accel.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/accel_gyro/accel_gyro.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/aux_fifo_full_header_mode/aux_fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/aux_fifo_full_headerless_mode/aux_fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/aux_fifo_watermark_header_mode/aux_fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/aux_fifo_watermark_headerless_mode/aux_fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/common/common.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/common/common.h",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/common/ois_common.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/common/ois_common.h",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/fifo_full_header_mode/fifo_full_header_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/fifo_full_headerless_mode/fifo_full_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/fifo_watermark_header_mode/fifo_watermark_header_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/fifo_watermark_headerless_mode/fifo_watermark_headerless_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/gyro/gyro.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/read_aux_data_mode/read_aux_data_mode.c",
+          "bmi270_sensor_api/bmi270_max_fifo_examples/temperature/temperature.c"
+        ]
+      },
+      "copyright_headers": [
+        "1. Redistributions of source code must retain the above copyright",
+        "2. Redistributions in binary form must reproduce the above copyright",
+        "3. Neither the name of the copyright holder nor the names of its",
+        "COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,",
+        "Copyright (C) 2023 Bosch Sensortec GmbH. All rights reserved.",
+        "Copyright (c) 2023 Bosch Sensortec GmbH. All rights reserved.",
+        "SPDX-FileCopyrightText: 2025 Nicolai Electronics",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/es8156",
+      "locked": {
+        "component_hash": "2cf4431df1d0b0867cd1eefa0a1fbc77dcf5347e9aa81446c95d5e3175c9bd63",
+        "version": "0.0.3"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-es8156.git",
+        "url": "https://github.com/badgeteam/esp32-component-es8156",
+        "version": "0.0.3"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__es8156/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "es8156.c",
+          "es8156.h",
+          "es8156_regs.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2025 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/esp-hosted-tanmatsu",
+      "locked": {
+        "component_hash": "b4497020eeebc0314206e2ba35f669ecdde326f00884680e2fbb300ebd4b907c",
+        "version": "2.12.3~1"
+      },
+      "manifest": {
+        "repository": "git://github.com/Nicolai-Electronics/esp-hosted-mcu.git",
+        "url": "https://github.com/espressif/esp-hosted-mcu",
+        "version": "2.12.3~1"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__esp-hosted-tanmatsu/LICENSE",
+        "licenses/components/nicolaielectronics__esp-hosted-tanmatsu/common/protobuf-c/LICENSE"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "common/esp_hosted_header.h",
+          "common/esp_hosted_interface.h",
+          "common/log/esp_hosted_log.h",
+          "common/rpc/esp_hosted_bitmasks.h",
+          "common/rpc/esp_hosted_rpc.h",
+          "common/transport/esp_hosted_transport.h",
+          "common/transport/esp_hosted_transport_init.h",
+          "common/transport/esp_hosted_transport_spi_hd.h",
+          "common/utils/esp_hosted_cli.c",
+          "common/utils/esp_hosted_cli.h",
+          "examples/host_bt_controller_mac_addr/main/main.c",
+          "examples/host_gpio_expander/main/host_gpio_expander_example.c",
+          "examples/host_hosted_cp_meminfo/main/app_common.h",
+          "examples/host_hosted_cp_meminfo/main/main.c",
+          "examples/host_hosted_events/main/app_common.h",
+          "examples/host_hosted_events/main/main.c",
+          "examples/host_manage_copro_ext_coex/main/main.c",
+          "examples/host_network_split__power_save/host_wakeup_demo_using_udp_packet/host_wakeup_demo_using_udp_packet.c",
+          "examples/host_network_split__power_save/main/iperf_example_main.c",
+          "examples/host_nimble_bleprph_host_only_uart_hci/main/bleprph.h",
+          "examples/host_nimble_bleprph_host_only_uart_hci/main/gatt_svr.c",
+          "examples/host_nimble_bleprph_host_only_uart_hci/main/main.c",
+          "examples/host_nimble_bleprph_host_only_vhci/main/bleprph.h",
+          "examples/host_nimble_bleprph_host_only_vhci/main/gatt_svr.c",
+          "examples/host_nimble_bleprph_host_only_vhci/main/main.c",
+          "examples/host_peer_data_transfer/main/peer_data_example.c",
+          "examples/host_performs_slave_ota/components/ota_https/ota_https.c",
+          "examples/host_performs_slave_ota/components/ota_https/ota_https.h",
+          "examples/host_performs_slave_ota/components/ota_https/ota_https_wifi.c",
+          "examples/host_performs_slave_ota/components/ota_https/test_server/create_https_server.py",
+          "examples/host_performs_slave_ota/components/ota_littlefs/ota_littlefs.c",
+          "examples/host_performs_slave_ota/components/ota_littlefs/ota_littlefs.h",
+          "examples/host_performs_slave_ota/components/ota_partition/ota_partition.c",
+          "examples/host_performs_slave_ota/components/ota_partition/ota_partition.h",
+          "examples/host_performs_slave_ota/main/main.c",
+          "examples/host_shuts_down_slave_to_power_save/main/main.c",
+          "examples/host_shuts_down_slave_to_power_save/main/memory_debug.c",
+          "examples/host_shuts_down_slave_to_power_save/main/memory_debug.h",
+          "examples/host_wifi_itwt/main/wifi_cmd.h",
+          "examples/host_wifi_itwt/main/wifi_itwt_cmd.c",
+          "examples/host_wifi_itwt/main/wifi_stats_cmd.c",
+          "host/api/include/esp_hosted_api_types.h",
+          "host/api/include/esp_hosted_cp_ext_coex.h",
+          "host/api/include/esp_hosted_cp_gpio.h",
+          "host/api/include/esp_hosted_ota.h",
+          "host/api/include/esp_hosted_power_save.h",
+          "host/api/include/esp_hosted_transport_config.h",
+          "host/api/include/esp_hosted_wifi_remote_glue.h",
+          "host/api/priv/esp_hosted_api_priv.h",
+          "host/api/src/esp_hosted_api.c",
+          "host/api/src/esp_hosted_ota_api.c",
+          "host/api/src/esp_hosted_transport_config.c",
+          "host/api/src/esp_wifi_weak.c",
+          "host/drivers/bt/hci_drv.h",
+          "host/drivers/bt/hci_stub_drv.c",
+          "host/drivers/bt/vhci_drv.c",
+          "host/drivers/mempool/mempool.c",
+          "host/drivers/mempool/mempool.h",
+          "host/drivers/power_save/power_save_drv.c",
+          "host/drivers/power_save/power_save_drv.h",
+          "host/drivers/rpc/core/rpc_core.c",
+          "host/drivers/rpc/core/rpc_core.h",
+          "host/drivers/rpc/core/rpc_evt.c",
+          "host/drivers/rpc/core/rpc_req.c",
+          "host/drivers/rpc/core/rpc_rsp.c",
+          "host/drivers/rpc/core/rpc_utils.c",
+          "host/drivers/rpc/core/rpc_utils.h",
+          "host/drivers/rpc/slaveif/rpc_slave_if.c",
+          "host/drivers/rpc/slaveif/rpc_slave_if.h",
+          "host/drivers/rpc/wrap/rpc_wrap.c",
+          "host/drivers/rpc/wrap/rpc_wrap.h",
+          "host/drivers/serial/serial_drv.c",
+          "host/drivers/serial/serial_drv.h",
+          "host/drivers/serial/serial_ll_if.c",
+          "host/drivers/serial/serial_ll_if.h",
+          "host/drivers/transport/sdio/sdio_drv.c",
+          "host/drivers/transport/sdio/sdio_drv.h",
+          "host/drivers/transport/sdio/sdio_reg.h",
+          "host/drivers/transport/spi/spi_drv.c",
+          "host/drivers/transport/spi/spi_drv.h",
+          "host/drivers/transport/spi_hd/spi_hd_drv.c",
+          "host/drivers/transport/spi_hd/spi_hd_drv.c",
+          "host/drivers/transport/spi_hd/spi_hd_drv.h",
+          "host/drivers/transport/transport_drv.c",
+          "host/drivers/transport/transport_drv.h",
+          "host/drivers/transport/uart/uart_drv.c",
+          "host/drivers/transport/uart/uart_drv.c",
+          "host/drivers/virtual_serial_if/serial_if.c",
+          "host/drivers/virtual_serial_if/serial_if.h",
+          "host/esp_hosted.h",
+          "host/esp_hosted_bluedroid.h",
+          "host/esp_hosted_bt.h",
+          "host/esp_hosted_event.h",
+          "host/esp_hosted_host_fw_ver.h",
+          "host/esp_hosted_misc.h",
+          "host/esp_hosted_misc_types.h",
+          "host/esp_hosted_os_abstraction.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_bt_config.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_config.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_log.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_os.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_sdio.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_spi.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_spi_hd.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_uart.h",
+          "host/port/esp/freertos/include/port_esp_hosted_host_wifi_config.h",
+          "host/port/esp/freertos/src/port_esp_hosted_host_init.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_os.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_sdio.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_spi.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_spi_hd.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_transport_defaults.c",
+          "host/port/esp/freertos/src/port_esp_hosted_host_uart.c",
+          "host/utils/stats.c",
+          "host/utils/stats.h",
+          "slave/main/esp_hosted_coprocessor.c",
+          "slave/main/esp_hosted_coprocessor.h",
+          "slave/main/esp_hosted_coprocessor.h",
+          "slave/main/esp_hosted_coprocessor_fw_ver.h",
+          "slave/main/esp_hosted_peer_data.h",
+          "slave/main/example_http_client.c",
+          "slave/main/example_http_client.h",
+          "slave/main/example_light_sleep.c",
+          "slave/main/example_light_sleep.h",
+          "slave/main/example_mqtt_client.c",
+          "slave/main/example_mqtt_client.h",
+          "slave/main/example_peer_data_transfer.c",
+          "slave/main/example_peer_data_transfer.h",
+          "slave/main/host_power_save.c",
+          "slave/main/host_power_save.h",
+          "slave/main/interface.h",
+          "slave/main/mempool.c",
+          "slave/main/mempool.h",
+          "slave/main/mempool_ll.c",
+          "slave/main/mempool_ll.h",
+          "slave/main/nw_split_router.c",
+          "slave/main/nw_split_router.h",
+          "slave/main/protocomm_pserial.c",
+          "slave/main/protocomm_pserial.h",
+          "slave/main/sdio_slave_api.c",
+          "slave/main/sdio_slave_api.h",
+          "slave/main/slave_bt.c",
+          "slave/main/slave_bt.h",
+          "slave/main/slave_bt_uart.h",
+          "slave/main/slave_bt_uart_esp32.c",
+          "slave/main/slave_bt_uart_esp32c3_s3.c",
+          "slave/main/slave_bt_uart_esp32xx.c",
+          "slave/main/slave_config.h",
+          "slave/main/slave_control.c",
+          "slave/main/slave_control.h",
+          "slave/main/slave_ext_coex.c",
+          "slave/main/slave_ext_coex.h",
+          "slave/main/slave_gpio_expander.c",
+          "slave/main/slave_gpio_expander.h",
+          "slave/main/slave_light_sleep.c",
+          "slave/main/slave_light_sleep.h",
+          "slave/main/slave_network_split.c",
+          "slave/main/slave_network_split.h",
+          "slave/main/slave_transport_gpio_pin_guard.c",
+          "slave/main/slave_transport_gpio_pin_guard.h",
+          "slave/main/slave_wifi_config.h",
+          "slave/main/slave_wifi_enterprise.c",
+          "slave/main/slave_wifi_enterprise.h",
+          "slave/main/slave_wifi_std.c",
+          "slave/main/slave_wifi_std.h",
+          "slave/main/spi_hd_slave_api.c",
+          "slave/main/spi_slave_api.c",
+          "slave/main/stats.c",
+          "slave/main/stats.h",
+          "slave/main/stats.h",
+          "slave/main/uart_slave_api.c",
+          "tools/check_changelog.py",
+          "tools/check_fw_versions.py",
+          "tools/check_rpc_calls.py",
+          "tools/check_weak_functions.py"
+        ],
+        "Unlicense OR CC0-1.0": [
+          "common/esp_hosted_lwip_src_port_hook.h",
+          "examples/host_bluedroid_ble_compatibility_test/main/ble_compatibility_test.c",
+          "examples/host_bluedroid_ble_compatibility_test/main/ble_compatibility_test.h",
+          "examples/host_bluedroid_bt_hid_mouse_device/main/main.c",
+          "examples/host_bluedroid_host_only/main/main.c",
+          "examples/host_hosted_cp_meminfo/main/station_example.c",
+          "examples/host_hosted_events/main/station_example.c",
+          "examples/host_nimble_bleprph_host_only_uart_hci/main/uart_driver.c",
+          "examples/host_nimble_bleprph_host_only_uart_hci/main/uart_driver.h",
+          "examples/host_sdcard_with_hosted/main/esp_hosted_wifi.c",
+          "examples/host_sdcard_with_hosted/main/esp_hosted_wifi.h",
+          "examples/host_sdcard_with_hosted/main/sd_card_example_common.h",
+          "examples/host_sdcard_with_hosted/main/sd_card_example_main.c",
+          "examples/host_sdcard_with_hosted/main/sd_card_functions.c",
+          "examples/host_sdcard_with_hosted/main/sd_card_functions.h",
+          "examples/host_sdcard_with_hosted/pytest_sdmmc_card_example.py",
+          "examples/host_transport_config/main/transport_config_main.c",
+          "examples/host_wifi_easy_connect_dpp_enrollee/main/dpp_enrollee_main.c",
+          "examples/host_wifi_itwt/main/itwt_main.c"
+        ]
+      },
+      "copyright_headers": [
+        "# SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD",
+        "# SPDX-FileCopyrightText: 2025-2026 Espressif Systems (Shanghai) CO LTD",
+        "# SPDX-FileCopyrightText: 2026 Espressif Systems (Shanghai) CO LTD",
+        "A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT",
+        "Copyright (c) 2008-2013, Dave Benson.  All rights reserved.",
+        "Copyright (c) 2008-2022, Dave Benson and the protobuf-c authors.",
+        "Copyright (c) 2014, The protobuf-c authors.",
+        "Copyright 2008 Google Inc.  All rights reserved.",
+        "Redistributions of source code must retain the above copyright",
+        "SPDX-FileCopyrightText: 2015-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2015-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2015-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2021-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2021-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2021-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2026 Espressif Systems (Shanghai) CO LTD",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS",
+        "\\copyright 2008-2014. Licensed under the terms of the [BSD-2-Clause] license.",
+        "copyright notice, this list of conditions and the following disclaimer"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/esp-wifi-remote-tanmatsu",
+      "locked": {
+        "component_hash": "727ff301054ea14ce2482ffc12154a64b4ac06d2aadd70621d3bb62ccfdebefa",
+        "version": "1.4.2"
+      },
+      "manifest": {
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-esp-wifi-remote-tanmatsu.git",
+        "version": "1.4.2"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__esp-wifi-remote-tanmatsu/LICENSE"
+      ],
+      "header_spdx": {
+        "Apache-2.0": [
+          "esp_wifi_remote.c",
+          "esp_wifi_remote_net.c",
+          "esp_wifi_remote_net2.c",
+          "idf_tag_v5.3/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.3/esp_eap_client_with_remote.c",
+          "idf_tag_v5.3/esp_wifi_remote_weak.c",
+          "idf_tag_v5.3/esp_wifi_with_remote.c",
+          "idf_tag_v5.3/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.3/include/esp_wifi_default_config.h",
+          "idf_tag_v5.3/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.3/include/injected/esp_mesh.h",
+          "idf_tag_v5.3/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.3/include/injected/esp_now.h",
+          "idf_tag_v5.3/include/injected/esp_wifi.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.3/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.3.1/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.3.1/esp_eap_client_with_remote.c",
+          "idf_tag_v5.3.1/esp_wifi_remote_weak.c",
+          "idf_tag_v5.3.1/esp_wifi_with_remote.c",
+          "idf_tag_v5.3.1/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.3.1/include/esp_wifi_default_config.h",
+          "idf_tag_v5.3.1/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.3.1/include/injected/esp_mesh.h",
+          "idf_tag_v5.3.1/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.3.1/include/injected/esp_now.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.3.1/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.3.2/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.3.2/esp_eap_client_with_remote.c",
+          "idf_tag_v5.3.2/esp_wifi_remote_weak.c",
+          "idf_tag_v5.3.2/esp_wifi_with_remote.c",
+          "idf_tag_v5.3.2/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.3.2/include/esp_wifi_default_config.h",
+          "idf_tag_v5.3.2/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.3.2/include/injected/esp_mesh.h",
+          "idf_tag_v5.3.2/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.3.2/include/injected/esp_now.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.3.2/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.3.3/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.3.3/esp_eap_client_with_remote.c",
+          "idf_tag_v5.3.3/esp_wifi_remote_weak.c",
+          "idf_tag_v5.3.3/esp_wifi_with_remote.c",
+          "idf_tag_v5.3.3/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.3.3/include/esp_wifi_default_config.h",
+          "idf_tag_v5.3.3/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.3.3/include/injected/esp_mesh.h",
+          "idf_tag_v5.3.3/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.3.3/include/injected/esp_now.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.3.3/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.4/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.4/esp_eap_client_with_remote.c",
+          "idf_tag_v5.4/esp_wifi_remote_weak.c",
+          "idf_tag_v5.4/esp_wifi_with_remote.c",
+          "idf_tag_v5.4/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.4/include/esp_wifi_default_config.h",
+          "idf_tag_v5.4/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.4/include/injected/esp_mesh.h",
+          "idf_tag_v5.4/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.4/include/injected/esp_now.h",
+          "idf_tag_v5.4/include/injected/esp_wifi.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.4/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.4.1/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.4.1/esp_eap_client_with_remote.c",
+          "idf_tag_v5.4.1/esp_wifi_remote_weak.c",
+          "idf_tag_v5.4.1/esp_wifi_with_remote.c",
+          "idf_tag_v5.4.1/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.4.1/include/esp_wifi_default_config.h",
+          "idf_tag_v5.4.1/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.4.1/include/injected/esp_mesh.h",
+          "idf_tag_v5.4.1/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.4.1/include/injected/esp_now.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.4.1/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.4.2/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.4.2/esp_eap_client_with_remote.c",
+          "idf_tag_v5.4.2/esp_wifi_remote_weak.c",
+          "idf_tag_v5.4.2/esp_wifi_with_remote.c",
+          "idf_tag_v5.4.2/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.4.2/include/esp_wifi_default_config.h",
+          "idf_tag_v5.4.2/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.4.2/include/injected/esp_mesh.h",
+          "idf_tag_v5.4.2/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.4.2/include/injected/esp_now.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.4.2/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.5/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.5/esp_eap_client_with_remote.c",
+          "idf_tag_v5.5/esp_wifi_remote_weak.c",
+          "idf_tag_v5.5/esp_wifi_with_remote.c",
+          "idf_tag_v5.5/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.5/include/esp_wifi_default_config.h",
+          "idf_tag_v5.5/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.5/include/injected/esp_mesh.h",
+          "idf_tag_v5.5/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.5/include/injected/esp_now.h",
+          "idf_tag_v5.5/include/injected/esp_wifi.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.5/include/injected/esp_wifi_types_native.h",
+          "idf_tag_v5.5.1/esp_eap_client_remote_weak.c",
+          "idf_tag_v5.5.1/esp_eap_client_with_remote.c",
+          "idf_tag_v5.5.1/esp_wifi_remote_weak.c",
+          "idf_tag_v5.5.1/esp_wifi_with_remote.c",
+          "idf_tag_v5.5.1/include/esp_eap_client_remote_api.h",
+          "idf_tag_v5.5.1/include/esp_wifi_default_config.h",
+          "idf_tag_v5.5.1/include/esp_wifi_remote_api.h",
+          "idf_tag_v5.5.1/include/injected/esp_mesh.h",
+          "idf_tag_v5.5.1/include/injected/esp_mesh_internal.h",
+          "idf_tag_v5.5.1/include/injected/esp_now.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_crypto_types.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_default.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_he.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_he_types.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_netif.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_types.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_types_generic.h",
+          "idf_tag_v5.5.1/include/injected/esp_wifi_types_native.h",
+          "idf_v5.3/esp_eap_client_remote_weak.c",
+          "idf_v5.3/esp_eap_client_with_remote.c",
+          "idf_v5.3/esp_wifi_remote_weak.c",
+          "idf_v5.3/esp_wifi_with_remote.c",
+          "idf_v5.3/include/esp_eap_client_remote_api.h",
+          "idf_v5.3/include/esp_wifi_default_config.h",
+          "idf_v5.3/include/esp_wifi_remote_api.h",
+          "idf_v5.3/include/injected/esp_mesh.h",
+          "idf_v5.3/include/injected/esp_mesh_internal.h",
+          "idf_v5.3/include/injected/esp_now.h",
+          "idf_v5.3/include/injected/esp_wifi.h",
+          "idf_v5.3/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_v5.3/include/injected/esp_wifi_crypto_types.h",
+          "idf_v5.3/include/injected/esp_wifi_default.h",
+          "idf_v5.3/include/injected/esp_wifi_he.h",
+          "idf_v5.3/include/injected/esp_wifi_he_types.h",
+          "idf_v5.3/include/injected/esp_wifi_netif.h",
+          "idf_v5.3/include/injected/esp_wifi_types.h",
+          "idf_v5.3/include/injected/esp_wifi_types_generic.h",
+          "idf_v5.3/include/injected/esp_wifi_types_native.h",
+          "idf_v5.4/esp_eap_client_remote_weak.c",
+          "idf_v5.4/esp_eap_client_with_remote.c",
+          "idf_v5.4/esp_wifi_remote_weak.c",
+          "idf_v5.4/esp_wifi_with_remote.c",
+          "idf_v5.4/include/esp_eap_client_remote_api.h",
+          "idf_v5.4/include/esp_wifi_default_config.h",
+          "idf_v5.4/include/esp_wifi_remote_api.h",
+          "idf_v5.4/include/injected/esp_mesh.h",
+          "idf_v5.4/include/injected/esp_mesh_internal.h",
+          "idf_v5.4/include/injected/esp_now.h",
+          "idf_v5.4/include/injected/esp_wifi.h",
+          "idf_v5.4/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_v5.4/include/injected/esp_wifi_crypto_types.h",
+          "idf_v5.4/include/injected/esp_wifi_default.h",
+          "idf_v5.4/include/injected/esp_wifi_he.h",
+          "idf_v5.4/include/injected/esp_wifi_he_types.h",
+          "idf_v5.4/include/injected/esp_wifi_netif.h",
+          "idf_v5.4/include/injected/esp_wifi_types.h",
+          "idf_v5.4/include/injected/esp_wifi_types_generic.h",
+          "idf_v5.4/include/injected/esp_wifi_types_native.h",
+          "idf_v5.5/esp_eap_client_remote_weak.c",
+          "idf_v5.5/esp_eap_client_with_remote.c",
+          "idf_v5.5/esp_wifi_remote_weak.c",
+          "idf_v5.5/esp_wifi_with_remote.c",
+          "idf_v5.5/include/esp_eap_client_remote_api.h",
+          "idf_v5.5/include/esp_wifi_default_config.h",
+          "idf_v5.5/include/esp_wifi_remote_api.h",
+          "idf_v5.5/include/injected/esp_mesh.h",
+          "idf_v5.5/include/injected/esp_mesh_internal.h",
+          "idf_v5.5/include/injected/esp_now.h",
+          "idf_v5.5/include/injected/esp_wifi.h",
+          "idf_v5.5/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_v5.5/include/injected/esp_wifi_crypto_types.h",
+          "idf_v5.5/include/injected/esp_wifi_default.h",
+          "idf_v5.5/include/injected/esp_wifi_he.h",
+          "idf_v5.5/include/injected/esp_wifi_he_types.h",
+          "idf_v5.5/include/injected/esp_wifi_netif.h",
+          "idf_v5.5/include/injected/esp_wifi_types.h",
+          "idf_v5.5/include/injected/esp_wifi_types_generic.h",
+          "idf_v5.5/include/injected/esp_wifi_types_native.h",
+          "idf_v6.0/esp_eap_client_remote_weak.c",
+          "idf_v6.0/esp_eap_client_with_remote.c",
+          "idf_v6.0/esp_wifi_remote_weak.c",
+          "idf_v6.0/esp_wifi_with_remote.c",
+          "idf_v6.0/include/esp_eap_client_remote_api.h",
+          "idf_v6.0/include/esp_wifi_default_config.h",
+          "idf_v6.0/include/esp_wifi_remote_api.h",
+          "idf_v6.0/include/injected/esp_mesh.h",
+          "idf_v6.0/include/injected/esp_mesh_internal.h",
+          "idf_v6.0/include/injected/esp_now.h",
+          "idf_v6.0/include/injected/esp_wifi.h",
+          "idf_v6.0/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_v6.0/include/injected/esp_wifi_crypto_types.h",
+          "idf_v6.0/include/injected/esp_wifi_default.h",
+          "idf_v6.0/include/injected/esp_wifi_he.h",
+          "idf_v6.0/include/injected/esp_wifi_he_types.h",
+          "idf_v6.0/include/injected/esp_wifi_netif.h",
+          "idf_v6.0/include/injected/esp_wifi_types.h",
+          "idf_v6.0/include/injected/esp_wifi_types_generic.h",
+          "idf_v6.0/include/injected/esp_wifi_types_native.h",
+          "idf_v6.1/esp_eap_client_remote_weak.c",
+          "idf_v6.1/esp_eap_client_with_remote.c",
+          "idf_v6.1/esp_wifi_remote_weak.c",
+          "idf_v6.1/esp_wifi_with_remote.c",
+          "idf_v6.1/include/esp_eap_client_remote_api.h",
+          "idf_v6.1/include/esp_wifi_default_config.h",
+          "idf_v6.1/include/esp_wifi_remote_api.h",
+          "idf_v6.1/include/injected/esp_mesh.h",
+          "idf_v6.1/include/injected/esp_mesh_internal.h",
+          "idf_v6.1/include/injected/esp_now.h",
+          "idf_v6.1/include/injected/esp_wifi.h",
+          "idf_v6.1/include/injected/esp_wifi_ap_get_sta_list.h",
+          "idf_v6.1/include/injected/esp_wifi_crypto_types.h",
+          "idf_v6.1/include/injected/esp_wifi_default.h",
+          "idf_v6.1/include/injected/esp_wifi_he.h",
+          "idf_v6.1/include/injected/esp_wifi_he_types.h",
+          "idf_v6.1/include/injected/esp_wifi_netif.h",
+          "idf_v6.1/include/injected/esp_wifi_types.h",
+          "idf_v6.1/include/injected/esp_wifi_types_generic.h",
+          "idf_v6.1/include/injected/esp_wifi_types_native.h",
+          "include/esp_wifi_remote.h",
+          "include/esp_wifi_remote_version.h",
+          "include/esp_wifi_remote_with_hosted.h",
+          "scripts/copyright_header.h",
+          "scripts/generate_and_check.py",
+          "scripts/generate_slave_configs.py",
+          "scripts/ignore_extensions.h",
+          "test/smoke_test/components/esp_hosted/idf_v5.3/esp_hosted_mock.c",
+          "test/smoke_test/components/esp_hosted/idf_v5.3/include/esp_hosted_mock.h",
+          "test/smoke_test/components/esp_hosted/idf_v5.4/esp_hosted_mock.c",
+          "test/smoke_test/components/esp_hosted/idf_v5.4/include/esp_hosted_mock.h",
+          "test/smoke_test/components/esp_hosted/idf_v5.5/esp_hosted_mock.c",
+          "test/smoke_test/components/esp_hosted/idf_v5.5/include/esp_hosted_mock.h",
+          "test/smoke_test/components/esp_hosted/idf_v6.0/esp_hosted_mock.c",
+          "test/smoke_test/components/esp_hosted/idf_v6.0/include/esp_hosted_mock.h",
+          "test/smoke_test/components/esp_hosted/idf_v6.1/esp_hosted_mock.c",
+          "test/smoke_test/components/esp_hosted/idf_v6.1/include/esp_hosted_mock.h",
+          "test/smoke_test/main/idf_v5.3/all_wifi_calls.c",
+          "test/smoke_test/main/idf_v5.3/all_wifi_remote_calls.c",
+          "test/smoke_test/main/idf_v5.4/all_wifi_calls.c",
+          "test/smoke_test/main/idf_v5.4/all_wifi_remote_calls.c",
+          "test/smoke_test/main/idf_v5.5/all_wifi_calls.c",
+          "test/smoke_test/main/idf_v5.5/all_wifi_remote_calls.c",
+          "test/smoke_test/main/idf_v6.0/all_wifi_calls.c",
+          "test/smoke_test/main/idf_v6.0/all_wifi_remote_calls.c",
+          "test/smoke_test/main/idf_v6.1/all_wifi_calls.c",
+          "test/smoke_test/main/idf_v6.1/all_wifi_remote_calls.c"
+        ],
+        "Unlicense OR CC0-1.0": [
+          "test/smoke_test/components/esp_hosted/include/esp_hosted_api.h",
+          "test/smoke_test/components/esp_hosted/include/esp_hosted_wifi_api.h",
+          "test/smoke_test/main/smoke_test.c"
+        ]
+      },
+      "copyright_headers": [
+        "# SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD",
+        "# SPDX-FileCopyrightText: 2024-2026 Espressif Systems (Shanghai) CO LTD",
+        "COPYRIGHT_HEADER = open('copyright_header.h', 'r').read()",
+        "SPDX-FileCopyrightText: 2015-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2015-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2017-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2017-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2019-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2019-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2019-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2022-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2023-2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2025-2026 Espressif Systems (Shanghai) CO LTD",
+        "SPDX-FileCopyrightText: 2026 Espressif Systems (Shanghai) CO LTD"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/mipi_dsi_abstraction",
+      "locked": {
+        "component_hash": "1c68f7a024f5fcbbacc84a1105f9bc01c390f86bb74c49a93c2aa0defd326378",
+        "version": "1.0.0"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-mipi-dsi-abstraction.git",
+        "url": "https://github.com/Nicolai-Electronics/esp32-component-mipi-dsi-abstraction",
+        "version": "1.0.0"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__mipi_dsi_abstraction/MIT-SPDX-NOTICE.txt"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "dsi_panel_espressif_ek79007.c",
+          "dsi_panel_espressif_ili9881c.c",
+          "dsi_panel_espressif_lt8912b.c",
+          "dsi_panel_nicolaielectronics_st7701.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2024 Nicolai Electronics",
+        "SPDX-FileCopyrightText: 2025 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/mpr121",
+      "locked": {
+        "component_hash": "93853032af10158cbb8714c9f487b1afec9f182b3826d95906d79704858f5b1b",
+        "version": "0.0.2"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-mpr121.git",
+        "url": "https://github.com/Nicolai-Electronics/esp32-component-mpr121",
+        "version": "0.0.2"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__mpr121/MIT-SPDX-NOTICE.txt"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "mpr121.c",
+          "mpr121.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2025 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/ssd1619",
+      "locked": {
+        "component_hash": "d0bc0dd259e8ada2511f0dbf9f5a861cd2e81bdd0f0eb041ad647932cdc73650",
+        "version": "1.0.0"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-ssd1619.git",
+        "url": "https://github.com/Nicolai-Electronics/esp32-component-ssd1619",
+        "version": "1.0.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__ssd1619/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "include/ssd1619.h",
+          "include/ssd1619_lut.h",
+          "ssd1619.c",
+          "ssd1619_lut.c"
+        ]
+      },
+      "copyright_headers": [
+        "Copyright (c) 2023 Nicolai Electronics",
+        "Copyright (c) 2023-2025 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/tanmatsu-wifi",
+      "locked": {
+        "component_hash": "d45332dc36d130eb70b6b33b3f5495ad15bab635b71def59674af3d1704da6f5",
+        "version": "1.3.1"
+      },
+      "manifest": {
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-tanmatsu-wifi.git",
+        "version": "1.3.1"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__tanmatsu-wifi/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "wifi_remote.c"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2026 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/tanmatsu_coprocessor",
+      "locked": {
+        "component_hash": "6942f39750ce5d30415bfa25eb4d544fb54f4c189d38a5e505fd256ea5a9d55b",
+        "version": "0.8.0"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-tanmatsu-coprocessor.git",
+        "url": "https://github.com/Nicolai-Electronics/esp32-component-tanmatsu-coprocessor",
+        "version": "0.8.0"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__tanmatsu_coprocessor/MIT-SPDX-NOTICE.txt"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "tanmatsu_coprocessor.c",
+          "tanmatsu_coprocessor.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2024 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/tca8418",
+      "locked": {
+        "component_hash": "7e5f11abb243f0341967d85219a2a85fa86f0a6fa6024ddd59f1f5ebb1e0a5d4",
+        "version": "1.0.0"
+      },
+      "manifest": {
+        "license": "MIT",
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-tca8418.git",
+        "url": "https://github.com/Nicolai-Electronics/esp32-component-tca8418",
+        "version": "1.0.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__tca8418/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "tca8418.c",
+          "tca8418_regs.h"
+        ]
+      },
+      "copyright_headers": [
+        "SPDX-FileCopyrightText: 2026 Nicolai Electronics"
+      ]
+    },
+    {
+      "name": "nicolaielectronics/wifi-manager",
+      "locked": {
+        "component_hash": "a5a8fb59d367a5f37ee3cfa6bc2615eafa22a7bf620739cd5bb9b571c2b3c871",
+        "version": "0.3.0"
+      },
+      "manifest": {
+        "repository": "git://github.com/Nicolai-Electronics/esp32-component-wifi-manager.git",
+        "version": "0.3.0"
+      },
+      "archive_seen_in_live_map": false,
+      "license_texts": [
+        "licenses/components/nicolaielectronics__wifi-manager/LICENSE"
+      ],
+      "header_spdx": {},
+      "copyright_headers": []
+    },
+    {
+      "name": "robotman2412/pax-gfx",
+      "locked": {
+        "component_hash": "afbc37df639e142eb1de9b18b1581c0f4d71f0892e3f291d2843b018b3559211",
+        "version": "2.2.2"
+      },
+      "manifest": {
+        "repository": "git://github.com/robotman2412/pax-graphics.git",
+        "version": "2.2.2"
+      },
+      "archive_seen_in_live_map": true,
+      "license_texts": [
+        "licenses/components/robotman2412__pax-gfx/LICENSE",
+        "licenses/components/robotman2412__pax-gfx/core/src/ptq/LICENSE"
+      ],
+      "header_spdx": {
+        "MIT": [
+          "core/include/helpers/pax_drawing_helpers.h",
+          "core/include/pax_config.h",
+          "core/include/pax_fixpt.hpp",
+          "core/include/pax_fonts.h",
+          "core/include/pax_gfx.h",
+          "core/include/pax_internal.h",
+          "core/include/pax_matrix.h",
+          "core/include/pax_orientation.h",
+          "core/include/pax_renderer.h",
+          "core/include/pax_shaders.h",
+          "core/include/pax_shapes.h",
+          "core/include/pax_text.h",
+          "core/include/pax_types.h",
+          "core/include/renderer/pax_renderer_soft.h",
+          "core/include/renderer/pax_renderer_softasync.h",
+          "core/include/shapes/pax_arcs.h",
+          "core/include/shapes/pax_circles.h",
+          "core/include/shapes/pax_lines.h",
+          "core/include/shapes/pax_misc.h",
+          "core/include/shapes/pax_rects.h",
+          "core/include/shapes/pax_tris.h",
+          "core/src/helpers/pax_dh_mcr_shaded.cpp",
+          "core/src/helpers/pax_dh_mcr_unshaded.cpp",
+          "core/src/helpers/pax_dh_shaded.cpp",
+          "core/src/helpers/pax_dh_unshaded.cpp",
+          "core/src/pax_fonts.c",
+          "core/src/pax_gfx.c",
+          "core/src/pax_matrix.c",
+          "core/src/pax_orientation.c",
+          "core/src/pax_renderer.c",
+          "core/src/pax_setters.c",
+          "core/src/pax_shaders.c",
+          "core/src/pax_shapes.c",
+          "core/src/pax_text.c",
+          "core/src/renderer/pax_renderer_soft.c",
+          "core/src/renderer/pax_renderer_softasync.c",
+          "core/src/shapes/pax_arcs.c",
+          "core/src/shapes/pax_circles.c",
+          "core/src/shapes/pax_lines.c",
+          "core/src/shapes/pax_misc.c",
+          "core/src/shapes/pax_rects.c",
+          "core/src/shapes/pax_tris.c",
+          "gui/include/pax_gui.h",
+          "gui/include/pax_gui_util.h",
+          "gui/priv_include/pax_gui_internal.h",
+          "gui/src/elem/pax_gui_box.c",
+          "gui/src/elem/pax_gui_button.c",
+          "gui/src/elem/pax_gui_dropdown.c",
+          "gui/src/elem/pax_gui_grid.c",
+          "gui/src/elem/pax_gui_image.c",
+          "gui/src/elem/pax_gui_overlay.c",
+          "gui/src/elem/pax_gui_text.c",
+          "gui/src/elem/pax_gui_textbox.c",
+          "gui/src/pax_gui.c",
+          "gui/src/pax_gui_themes.c",
+          "gui/src/pax_gui_util.c"
+        ]
+      },
+      "copyright_headers": [
+        "\tAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+        "\tCopyright (c) 2022 Julian Scheffers",
+        "\tThe above copyright notice and this permission notice shall be included in all"
+      ]
+    }
+  ],
+  "license_evidence": [
+    {
+      "evidence": "licenses/components/badgeteam__badge-bsp/LICENSE",
+      "source": "components/badgeteam__badge-bsp/LICENSE",
+      "bytes": 1109,
+      "sha256": "61288fecfb9995d2c532191e510b20fc395b83e6d836b24151daaf3399347409"
+    },
+    {
+      "evidence": "licenses/components/badgeteam__custom-certificates/LICENSE",
+      "source": "components/badgeteam__custom-certificates/LICENSE",
+      "bytes": 1084,
+      "sha256": "6cf076a49c3c46e4d6be28e2bce580b32b0e0b9ffd5355efb76f44104510a310"
+    },
+    {
+      "evidence": "licenses/components/espressif__cmake_utilities/license.txt",
+      "source": "components/espressif__cmake_utilities/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__eppp_link/LICENSE",
+      "source": "components/espressif__eppp_link/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_ek79007/license.txt",
+      "source": "components/espressif__esp_lcd_ek79007/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_ili9341/license.txt",
+      "source": "components/espressif__esp_lcd_ili9341/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_ili9881c/license.txt",
+      "source": "components/espressif__esp_lcd_ili9881c/license.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_lt8912b/license.txt",
+      "source": "components/espressif__esp_lcd_lt8912b/license.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_st7701/license.txt",
+      "source": "components/espressif__esp_lcd_st7701/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_touch/license.txt",
+      "source": "components/espressif__esp_lcd_touch/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_lcd_touch_gt911/license.txt",
+      "source": "components/espressif__esp_lcd_touch_gt911/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__esp_serial_slave_link/LICENSE",
+      "source": "components/espressif__esp_serial_slave_link/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/espressif__led_strip/LICENSE",
+      "source": "components/espressif__led_strip/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__bmi270/LICENSE",
+      "source": "components/nicolaielectronics__bmi270/LICENSE",
+      "bytes": 1564,
+      "sha256": "23f1de11fc97d156cf348f8e230576207f7248b90396f49fc03afc5454798764"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__bmi270/bmi270_sensor_api/LICENSE",
+      "source": "components/nicolaielectronics__bmi270/bmi270_sensor_api/LICENSE",
+      "bytes": 1524,
+      "sha256": "56df116398e0b72a12ae353d93002d29175583590283ced2c2510e3d8075546f"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__es8156/LICENSE",
+      "source": "components/nicolaielectronics__es8156/LICENSE",
+      "bytes": 1076,
+      "sha256": "cbf34b71d18ae15792c86c20861ba0b677626e685827adb5630769fcac673c5d"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__esp-hosted-tanmatsu/LICENSE",
+      "source": "components/nicolaielectronics__esp-hosted-tanmatsu/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__esp-hosted-tanmatsu/common/protobuf-c/LICENSE",
+      "source": "components/nicolaielectronics__esp-hosted-tanmatsu/common/protobuf-c/LICENSE",
+      "bytes": 1613,
+      "sha256": "b8999cb392cc5bbe8cd679de59584ad8d2f26033123e76f1d662fa14b9d4f287"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__esp-wifi-remote-tanmatsu/LICENSE",
+      "source": "components/nicolaielectronics__esp-wifi-remote-tanmatsu/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__mipi_dsi_abstraction/MIT-SPDX-NOTICE.txt",
+      "source": "nicolaielectronics/mipi_dsi_abstraction manifest MIT declaration and source copyright headers",
+      "bytes": 1135,
+      "sha256": "99843e721a73a6083a22cc3b23010513da933425320956013868c61994c68f53",
+      "assembly": "upstream copyright headers plus standard MIT permission/disclaimer; not a relicensing"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__mpr121/MIT-SPDX-NOTICE.txt",
+      "source": "nicolaielectronics/mpr121 manifest MIT declaration and source copyright headers",
+      "bytes": 1086,
+      "sha256": "160d7dc385d8c98c5a0444b5fdae26b5a5ba1f829f5532ad255502d2ab28b572",
+      "assembly": "upstream copyright headers plus standard MIT permission/disclaimer; not a relicensing"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__ssd1619/LICENSE",
+      "source": "components/nicolaielectronics__ssd1619/LICENSE",
+      "bytes": 1076,
+      "sha256": "cbf34b71d18ae15792c86c20861ba0b677626e685827adb5630769fcac673c5d"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__tanmatsu-wifi/LICENSE",
+      "source": "components/nicolaielectronics__tanmatsu-wifi/LICENSE",
+      "bytes": 1076,
+      "sha256": "cbf34b71d18ae15792c86c20861ba0b677626e685827adb5630769fcac673c5d"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__tanmatsu_coprocessor/MIT-SPDX-NOTICE.txt",
+      "source": "nicolaielectronics/tanmatsu_coprocessor manifest MIT declaration and source copyright headers",
+      "bytes": 1086,
+      "sha256": "074d5c5ff4d56d576867ce4520fbb674a7b62102c0f796089e3c5d38320fff50",
+      "assembly": "upstream copyright headers plus standard MIT permission/disclaimer; not a relicensing"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__tca8418/LICENSE",
+      "source": "components/nicolaielectronics__tca8418/LICENSE",
+      "bytes": 1076,
+      "sha256": "283b8adba6a051d07968800d5e304f1d0e6e69ecb07bca0505821755a1b99b14"
+    },
+    {
+      "evidence": "licenses/components/nicolaielectronics__wifi-manager/LICENSE",
+      "source": "components/nicolaielectronics__wifi-manager/LICENSE",
+      "bytes": 1084,
+      "sha256": "6cf076a49c3c46e4d6be28e2bce580b32b0e0b9ffd5355efb76f44104510a310"
+    },
+    {
+      "evidence": "licenses/components/robotman2412__pax-gfx/LICENSE",
+      "source": "components/robotman2412__pax-gfx/LICENSE",
+      "bytes": 1078,
+      "sha256": "f74e8ad3a53fd65edfa3a09bb9b319bdc294f6f95164de9af732903b2b990f6c"
+    },
+    {
+      "evidence": "licenses/components/robotman2412__pax-gfx/core/src/ptq/LICENSE",
+      "source": "components/robotman2412__pax-gfx/core/src/ptq/LICENSE",
+      "bytes": 1073,
+      "sha256": "0f3e504eb377047eb7e202b04cba4a5c1f325a1a0c2912dfbf0c0c78a94eaf5c"
+    },
+    {
+      "evidence": "licenses/sdk/LICENSE",
+      "source": "sdk/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/bootloader/subproject/components/micro-ecc/micro-ecc/LICENSE.txt",
+      "source": "sdk/components/bootloader/subproject/components/micro-ecc/micro-ecc/LICENSE.txt",
+      "bytes": 1300,
+      "sha256": "ffd8b033d2df7568c25a98866bd92b1656f7da82d7f813c0b2eb85ec36611193"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/common/tinycrypt/LICENSE",
+      "source": "sdk/components/bt/common/tinycrypt/LICENSE",
+      "bytes": 3254,
+      "sha256": "270e0b63ce74421f1ccaaf03f9c7daa430cdb16c9856259ca4c2e3c74880d589"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32/LICENSE",
+      "source": "sdk/components/bt/controller/lib_esp32/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32c2/esp32c2-bt-lib/NOTICE",
+      "source": "sdk/components/bt/controller/lib_esp32c2/esp32c2-bt-lib/NOTICE",
+      "bytes": 320,
+      "sha256": "9db49cb1e535c496d7655dd54d5481404e7634353dc3bc0817c7d07767acc6e8"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32c3_family/LICENSE",
+      "source": "sdk/components/bt/controller/lib_esp32c3_family/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32c5/esp32c5-bt-lib/NOTICE",
+      "source": "sdk/components/bt/controller/lib_esp32c5/esp32c5-bt-lib/NOTICE",
+      "bytes": 320,
+      "sha256": "ebd002217a1a76e3cce23cd89d0916477da6c7907a6a46c8a7f1fb209e3cb333"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32c6/esp32c6-bt-lib/NOTICE",
+      "source": "sdk/components/bt/controller/lib_esp32c6/esp32c6-bt-lib/NOTICE",
+      "bytes": 320,
+      "sha256": "ebd002217a1a76e3cce23cd89d0916477da6c7907a6a46c8a7f1fb209e3cb333"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/controller/lib_esp32h2/esp32h2-bt-lib/NOTICE",
+      "source": "sdk/components/bt/controller/lib_esp32h2/esp32h2-bt-lib/NOTICE",
+      "bytes": 321,
+      "sha256": "a1a74b78d60bf3feb4f493f058ac8ee4022e40387783085171670e34b001d8dd"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/esp_ble_mesh/lib/lib/LICENSE",
+      "source": "sdk/components/bt/esp_ble_mesh/lib/lib/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/host/nimble/nimble/LICENSE",
+      "source": "sdk/components/bt/host/nimble/nimble/LICENSE",
+      "bytes": 12514,
+      "sha256": "0deb15bc7df50b1d009c644b008f92e1062909e9521328d337c5fad3a5d4921c"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/host/nimble/nimble/NOTICE",
+      "source": "sdk/components/bt/host/nimble/nimble/NOTICE",
+      "bytes": 321,
+      "sha256": "b838c4733a5020cd8e2bafbe70842acd8c8dc7816012965b77d10c1f4c0727f6"
+    },
+    {
+      "evidence": "licenses/sdk/components/bt/host/nimble/nimble/ext/tinycrypt/LICENSE",
+      "source": "sdk/components/bt/host/nimble/nimble/ext/tinycrypt/LICENSE",
+      "bytes": 3313,
+      "sha256": "b2d451fcba3577b118741d733d37ebd15bdd0b6b381e554a7345bdbfa3743108"
+    },
+    {
+      "evidence": "licenses/sdk/components/cmock/CMock/LICENSE.txt",
+      "source": "sdk/components/cmock/CMock/LICENSE.txt",
+      "bytes": 1092,
+      "sha256": "a228c2871b9a779a6542a49470c5b567f2806dddcbcf90af861bb4d39291626c"
+    },
+    {
+      "evidence": "licenses/sdk/components/cmock/CMock/vendor/unity/LICENSE.txt",
+      "source": "sdk/components/cmock/CMock/vendor/unity/LICENSE.txt",
+      "bytes": 1123,
+      "sha256": "3ed9b51da86f52c729c96cc99fdde6444b2297c788a9cf4ad1d3649dc34c4985"
+    },
+    {
+      "evidence": "licenses/sdk/components/console/argtable3/LICENSE",
+      "source": "sdk/components/console/argtable3/LICENSE",
+      "bytes": 8379,
+      "sha256": "a97df648b7db77f9f6f5e1ef5fe44eb6b154ecb8ae26ad39c92ea44201cce45c"
+    },
+    {
+      "evidence": "licenses/sdk/components/console/linenoise/LICENSE",
+      "source": "sdk/components/console/linenoise/LICENSE",
+      "bytes": 1408,
+      "sha256": "efe1692aa5b869edaa0ac88f95eb0276c1125304ffc636a299db3ebbab47f62b"
+    },
+    {
+      "evidence": "licenses/sdk/components/esp_coex/lib/LICENSE",
+      "source": "sdk/components/esp_coex/lib/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/esp_libc/COPYING.NEWLIB",
+      "source": "sdk/components/esp_libc/COPYING.NEWLIB",
+      "bytes": 46295,
+      "sha256": "0681089a556e93791da82718d68011ba452de245f7f59c3846936304756ac0c0"
+    },
+    {
+      "evidence": "licenses/sdk/components/esp_libc/COPYING.picolibc",
+      "source": "sdk/components/esp_libc/COPYING.picolibc",
+      "bytes": 234687,
+      "sha256": "fa72ebf6e3c9b3d674f89da06648b0c17d3bcb1ce05ed5956cc102fba1e6964d"
+    },
+    {
+      "evidence": "licenses/sdk/components/esp_phy/lib/LICENSE",
+      "source": "sdk/components/esp_phy/lib/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/esp_wifi/lib/LICENSE",
+      "source": "sdk/components/esp_wifi/lib/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/esptool_py/LICENSE",
+      "source": "sdk/components/esptool_py/LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "evidence": "licenses/sdk/components/freertos/FreeRTOS-Kernel/LICENSE.md",
+      "source": "sdk/components/freertos/FreeRTOS-Kernel/LICENSE.md",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "evidence": "licenses/sdk/components/http_parser/LICENSE.txt",
+      "source": "sdk/components/http_parser/LICENSE.txt",
+      "bytes": 1298,
+      "sha256": "3aced2d086d3f59cafb6589770c30c1e45a5bdf50c1d4375060b81a615db604c"
+    },
+    {
+      "evidence": "licenses/sdk/components/lwip/lwip/COPYING",
+      "source": "sdk/components/lwip/lwip/COPYING",
+      "bytes": 1425,
+      "sha256": "ef4aac92e05e87cd1cdc140870ed52206ba03d4a7fe46c1e11d7ffa6c87d252b"
+    },
+    {
+      "evidence": "licenses/sdk/components/lwip/lwip/contrib/apps/LwipMibCompiler/SharpSnmpLib/license.txt",
+      "source": "sdk/components/lwip/lwip/contrib/apps/LwipMibCompiler/SharpSnmpLib/license.txt",
+      "bytes": 24383,
+      "sha256": "ef1f7505cfdff240e72602bc50ef1cdba37c681c84611cdf30e4371320c70942"
+    },
+    {
+      "evidence": "licenses/sdk/components/mbedtls/mbedtls/LICENSE",
+      "source": "sdk/components/mbedtls/mbedtls/LICENSE",
+      "bytes": 29852,
+      "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b"
+    },
+    {
+      "evidence": "licenses/sdk/components/mbedtls/mbedtls/tf-psa-crypto/LICENSE",
+      "source": "sdk/components/mbedtls/mbedtls/tf-psa-crypto/LICENSE",
+      "bytes": 29856,
+      "sha256": "da8c58f05f135a9d15e9ffad4ecf854cfcc1f014c8abfd75ba05f62630ccc118"
+    },
+    {
+      "evidence": "licenses/sdk/components/mbedtls/mbedtls/tf-psa-crypto/drivers/pqcp/mldsa-native/LICENSE",
+      "source": "sdk/components/mbedtls/mbedtls/tf-psa-crypto/drivers/pqcp/mldsa-native/LICENSE",
+      "bytes": 15310,
+      "sha256": "26ee68617256be39e12fbbb0fb0c8c7087980a2020ded46e3ef3c3810c35d847"
+    },
+    {
+      "evidence": "licenses/sdk/components/mbedtls/mbedtls/tf-psa-crypto/drivers/pqcp/mldsa-native/examples/custom_backend/mldsa_native/src/fips202/native/custom/src/LICENSE",
+      "source": "sdk/components/mbedtls/mbedtls/tf-psa-crypto/drivers/pqcp/mldsa-native/examples/custom_backend/mldsa_native/src/fips202/native/custom/src/LICENSE",
+      "bytes": 1138,
+      "sha256": "c5ebc5c092628cbb9018d4b73d7330ffc84e3f44576c1bddcd884c3e5158a18c"
+    },
+    {
+      "evidence": "licenses/sdk/components/mbedtls/mbedtls/tf-psa-crypto/framework/LICENSE",
+      "source": "sdk/components/mbedtls/mbedtls/tf-psa-crypto/framework/LICENSE",
+      "bytes": 29861,
+      "sha256": "11402351e38392230bb8934ba1095c0c0049a296c0f8821f76e4672dff54b490"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/lib/LICENSE",
+      "source": "sdk/components/openthread/lib/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/LICENSE",
+      "source": "sdk/components/openthread/openthread/LICENSE",
+      "bytes": 1506,
+      "sha256": "e164182fc3e6378533ba706800087469a14dcd5913ee55e2e8ae3fb14f3cdbbb"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/NOTICE",
+      "source": "sdk/components/openthread/openthread/NOTICE",
+      "bytes": 1325,
+      "sha256": "1b37f4fbb95506a0529a15c007aa53053e0e2bf03b1547fb244fdebacf49374f"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/third_party/jlink/SEGGER_RTT_V640/License.txt",
+      "source": "sdk/components/openthread/openthread/third_party/jlink/SEGGER_RTT_V640/License.txt",
+      "bytes": 1759,
+      "sha256": "9a160ebc4406ed363f5fb397cc8cd201613ab29e67a2439474f7bafd77e3ce07"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/third_party/mbedtls/repo/LICENSE",
+      "source": "sdk/components/openthread/openthread/third_party/mbedtls/repo/LICENSE",
+      "bytes": 29852,
+      "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/third_party/mbedtls/repo/framework/LICENSE",
+      "source": "sdk/components/openthread/openthread/third_party/mbedtls/repo/framework/LICENSE",
+      "bytes": 29861,
+      "sha256": "11402351e38392230bb8934ba1095c0c0049a296c0f8821f76e4672dff54b490"
+    },
+    {
+      "evidence": "licenses/sdk/components/openthread/openthread/tools/otci/LICENSE",
+      "source": "sdk/components/openthread/openthread/tools/otci/LICENSE",
+      "bytes": 1506,
+      "sha256": "d29b8f5c1c666698dfe7717c53e10f82981e0889a06f8a3ebc093d9dccc35aa4"
+    },
+    {
+      "evidence": "licenses/sdk/components/protobuf-c/protobuf-c/LICENSE",
+      "source": "sdk/components/protobuf-c/protobuf-c/LICENSE",
+      "bytes": 1613,
+      "sha256": "b8999cb392cc5bbe8cd679de59584ad8d2f26033123e76f1d662fa14b9d4f287"
+    },
+    {
+      "evidence": "licenses/sdk/components/spiffs/spiffs/LICENSE",
+      "source": "sdk/components/spiffs/spiffs/LICENSE",
+      "bytes": 1117,
+      "sha256": "d19257540156a51ed50c2378e7159066415d8bbbe147779f8deb0d3e73f1b0a7"
+    },
+    {
+      "evidence": "licenses/sdk/components/unity/unity/LICENSE.txt",
+      "source": "sdk/components/unity/unity/LICENSE.txt",
+      "bytes": 1123,
+      "sha256": "7d710553eaf7174f383699ed4eebac67fe7cda7971cbe892f700cd0e087f860f"
+    },
+    {
+      "evidence": "licenses/sdk/components/wpa_supplicant/COPYING",
+      "source": "sdk/components/wpa_supplicant/COPYING",
+      "bytes": 965,
+      "sha256": "a87ac4e333d0f120408a9d814e40c3672cd27f365af89b4f2f6631f7a9338953"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING",
+      "source": "toolchain/binutils/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING.LIB",
+      "source": "toolchain/binutils/COPYING.LIB",
+      "bytes": 25291,
+      "sha256": "56bdea73b6145ef6ac5259b3da390b981d840c24cb03b8e1cbc678de7ecfa18d"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING.LIBGLOSS",
+      "source": "toolchain/binutils/COPYING.LIBGLOSS",
+      "bytes": 17076,
+      "sha256": "fd3190e942375b5a15d5a3f34759361921cac05afb33f90b79d0cb132971676e"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING.NEWLIB",
+      "source": "toolchain/binutils/COPYING.NEWLIB",
+      "bytes": 46316,
+      "sha256": "19a3d496c944575951ca048e1fc0c974f030618586059732fa9def2281873f88"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING3",
+      "source": "toolchain/binutils/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/COPYING3.LIB",
+      "source": "toolchain/binutils/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/bfd/COPYING",
+      "source": "toolchain/binutils/bfd/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/gas/COPYING",
+      "source": "toolchain/binutils/gas/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/gdb/COPYING",
+      "source": "toolchain/binutils/gdb/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/include/COPYING",
+      "source": "toolchain/binutils/include/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/include/COPYING3",
+      "source": "toolchain/binutils/include/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/libiberty/COPYING.LIB",
+      "source": "toolchain/binutils/libiberty/COPYING.LIB",
+      "bytes": 26440,
+      "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/readline/readline/COPYING",
+      "source": "toolchain/binutils/readline/readline/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/sim/COPYING",
+      "source": "toolchain/binutils/sim/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/zlib/LICENSE",
+      "source": "toolchain/binutils/zlib/LICENSE",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "evidence": "licenses/toolchain/binutils/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "source": "toolchain/binutils/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "bytes": 1359,
+      "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+    },
+    {
+      "evidence": "licenses/toolchain/crosstool-ng/COPYING",
+      "source": "toolchain/crosstool-ng/COPYING",
+      "bytes": 2517,
+      "sha256": "07bc0ccd386469c748c4cf6c8faca5667fbf8c4400386714287fa233acfd68ba"
+    },
+    {
+      "evidence": "licenses/toolchain/crosstool-ng/LICENSE",
+      "source": "toolchain/crosstool-ng/LICENSE",
+      "bytes": 2517,
+      "sha256": "07bc0ccd386469c748c4cf6c8faca5667fbf8c4400386714287fa233acfd68ba"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/COPYING",
+      "source": "toolchain/gcc/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/COPYING.LIB",
+      "source": "toolchain/gcc/COPYING.LIB",
+      "bytes": 26527,
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/COPYING.RUNTIME",
+      "source": "toolchain/gcc/COPYING.RUNTIME",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/COPYING3",
+      "source": "toolchain/gcc/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/COPYING3.LIB",
+      "source": "toolchain/gcc/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/COPYING",
+      "source": "toolchain/gcc/gcc/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/COPYING.LIB",
+      "source": "toolchain/gcc/gcc/COPYING.LIB",
+      "bytes": 26440,
+      "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/COPYING3",
+      "source": "toolchain/gcc/gcc/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/COPYING3.LIB",
+      "source": "toolchain/gcc/gcc/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/go/gofrontend/LICENSE",
+      "source": "toolchain/gcc/gcc/go/gofrontend/LICENSE",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/m2/COPYING.FDL",
+      "source": "toolchain/gcc/gcc/m2/COPYING.FDL",
+      "bytes": 20355,
+      "sha256": "2ef8d66a88441327f071f98bc92ec1c7aec02e983c19fb49f6fb21d624fcaaf2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/m2/COPYING.RUNTIME",
+      "source": "toolchain/gcc/gcc/m2/COPYING.RUNTIME",
+      "bytes": 3329,
+      "sha256": "86c57afef00e0462173a19ab20387dec082f10b6dc59b7eda74d3da76b3142c2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/m2/COPYING3",
+      "source": "toolchain/gcc/gcc/m2/COPYING3",
+      "bytes": 35148,
+      "sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/m2/COPYING3.LIB",
+      "source": "toolchain/gcc/gcc/m2/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/m2/images/LICENSE.IMG",
+      "source": "toolchain/gcc/gcc/m2/images/LICENSE.IMG",
+      "bytes": 762,
+      "sha256": "abf1864372fc6dd8331f40970442e6578c7956d0a95103fc054c986e45279a8b"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/datafrog/LICENSE-APACHE",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/datafrog/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/datafrog/LICENSE-MIT",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/datafrog/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/log/LICENSE-APACHE",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/log/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/log/LICENSE-MIT",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/log/LICENSE-MIT",
+      "bytes": 1071,
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/rustc-hash/LICENSE-APACHE",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/rustc-hash/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/rustc-hash/LICENSE-MIT",
+      "source": "toolchain/gcc/gcc/rust/checks/errors/borrowck/ffi-polonius/vendor/rustc-hash/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/gcc/testsuite/gcc.dg/params/LICENSE",
+      "source": "toolchain/gcc/gcc/testsuite/gcc.dg/params/LICENSE",
+      "bytes": 1901,
+      "sha256": "4919cfb14a73cd64fcef67b107613970cf1659a09aa675dba31314f373bc7204"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/include/COPYING",
+      "source": "toolchain/gcc/include/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/include/COPYING3",
+      "source": "toolchain/gcc/include/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libcody/LICENSE",
+      "source": "toolchain/gcc/libcody/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libffi/LICENSE",
+      "source": "toolchain/gcc/libffi/LICENSE",
+      "bytes": 1132,
+      "sha256": "a61d06e8f7be57928e71e800eb9273b05cb8868c484108afe41e4305bb320dde"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libffi/LICENSE-BUILDTOOLS",
+      "source": "toolchain/gcc/libffi/LICENSE-BUILDTOOLS",
+      "bytes": 18698,
+      "sha256": "e67978cd18816c0cb7d29aaaacde7b7447402c2fb321a051698890a8eaedda94"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgcobol/LICENSE",
+      "source": "toolchain/gcc/libgcobol/LICENSE",
+      "bytes": 1478,
+      "sha256": "e928a2c9b73e5548dddb9e74f83dc5bb58e8856fc6e8c21b7107f9b5098bcff7"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgo/LICENSE",
+      "source": "toolchain/gcc/libgo/LICENSE",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgo/go/golang.org/x/mod/LICENSE",
+      "source": "toolchain/gcc/libgo/go/golang.org/x/mod/LICENSE",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgo/go/golang.org/x/sync/LICENSE",
+      "source": "toolchain/gcc/libgo/go/golang.org/x/sync/LICENSE",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgo/go/golang.org/x/tools/LICENSE",
+      "source": "toolchain/gcc/libgo/go/golang.org/x/tools/LICENSE",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgo/go/golang.org/x/xerrors/LICENSE",
+      "source": "toolchain/gcc/libgo/go/golang.org/x/xerrors/LICENSE",
+      "bytes": 1479,
+      "sha256": "84d554e7a5d139b7c7b5d6ef0670ae556c4cdcfa354eaad72a1c07c08012c96f"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgrust/libformat_parser/vendor/libc/LICENSE-APACHE",
+      "source": "toolchain/gcc/libgrust/libformat_parser/vendor/libc/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgrust/libformat_parser/vendor/libc/LICENSE-MIT",
+      "source": "toolchain/gcc/libgrust/libformat_parser/vendor/libc/LICENSE-MIT",
+      "bytes": 1076,
+      "sha256": "a8d47ff51ca256f56a8932dba07660672dbfe3004257ca8de708aac1415937a1"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgrust/libformat_parser/vendor/unicode-xid/LICENSE-APACHE",
+      "source": "toolchain/gcc/libgrust/libformat_parser/vendor/unicode-xid/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libgrust/libformat_parser/vendor/unicode-xid/LICENSE-MIT",
+      "source": "toolchain/gcc/libgrust/libformat_parser/vendor/unicode-xid/LICENSE-MIT",
+      "bytes": 1071,
+      "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libiberty/COPYING.LIB",
+      "source": "toolchain/gcc/libiberty/COPYING.LIB",
+      "bytes": 26440,
+      "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libphobos/libdruntime/LICENSE.txt",
+      "source": "toolchain/gcc/libphobos/libdruntime/LICENSE.txt",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libphobos/src/LICENSE_1_0.txt",
+      "source": "toolchain/gcc/libphobos/src/LICENSE_1_0.txt",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libquadmath/COPYING.LIB",
+      "source": "toolchain/gcc/libquadmath/COPYING.LIB",
+      "bytes": 26440,
+      "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libsanitizer/LICENSE.TXT",
+      "source": "toolchain/gcc/libsanitizer/LICENSE.TXT",
+      "bytes": 4506,
+      "sha256": "74c2b24539a53c34abddb559266d89cb653b0198cd2faf9c04763d3223db7f6d"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/libstdc++-v3/include/pstl/LICENSE.txt",
+      "source": "toolchain/gcc/libstdc++-v3/include/pstl/LICENSE.txt",
+      "bytes": 16700,
+      "sha256": "0ca8cbe9219a841f9bc8fbb1f8ecdf5e39b1b0e23ee10fb6b0c090d8987dd1eb"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/zlib/LICENSE",
+      "source": "toolchain/gcc/zlib/LICENSE",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "evidence": "licenses/toolchain/gcc/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "source": "toolchain/gcc/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "bytes": 1359,
+      "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+    },
+    {
+      "evidence": "licenses/toolchain/gmp/COPYING",
+      "source": "toolchain/gmp/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/gmp/COPYING.LESSERv3",
+      "source": "toolchain/gmp/COPYING.LESSERv3",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/gmp/COPYINGv2",
+      "source": "toolchain/gmp/COPYINGv2",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "evidence": "licenses/toolchain/gmp/COPYINGv3",
+      "source": "toolchain/gmp/COPYINGv3",
+      "bytes": 35150,
+      "sha256": "e6037104443f9a7829b2aa7c5370d0789a7bda3ca65a0b904cdc0c2e285d9195"
+    },
+    {
+      "evidence": "licenses/toolchain/isl/LICENSE",
+      "source": "toolchain/isl/LICENSE",
+      "bytes": 1042,
+      "sha256": "3a2c398103f6bca0f50a9a9465deca9230b370b0212af5fdf31ed88a36215c30"
+    },
+    {
+      "evidence": "licenses/toolchain/mpc/COPYING.LESSER",
+      "source": "toolchain/mpc/COPYING.LESSER",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "evidence": "licenses/toolchain/mpfr/COPYING",
+      "source": "toolchain/mpfr/COPYING",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "evidence": "licenses/toolchain/mpfr/COPYING.LESSER",
+      "source": "toolchain/mpfr/COPYING.LESSER",
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING",
+      "source": "toolchain/newlib/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING.LIB",
+      "source": "toolchain/newlib/COPYING.LIB",
+      "bytes": 26527,
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING.LIBGLOSS",
+      "source": "toolchain/newlib/COPYING.LIBGLOSS",
+      "bytes": 24242,
+      "sha256": "bdaffd5fff30cb5fc7a239a4fa0b95f703590f7b3813ca7f4e76ff46437aeb81"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING.NEWLIB",
+      "source": "toolchain/newlib/COPYING.NEWLIB",
+      "bytes": 78261,
+      "sha256": "fcfb5ec69b6ab52676dcc4dab7cf4338c8000ef97812dadd35b8592a640a8419"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING3",
+      "source": "toolchain/newlib/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/COPYING3.LIB",
+      "source": "toolchain/newlib/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/include/COPYING",
+      "source": "toolchain/newlib/include/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/include/COPYING3",
+      "source": "toolchain/newlib/include/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/winsup/COPYING",
+      "source": "toolchain/newlib/winsup/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/winsup/COPYING.LIB",
+      "source": "toolchain/newlib/winsup/COPYING.LIB",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "evidence": "licenses/toolchain/newlib/winsup/utils/COPYING.dumper",
+      "source": "toolchain/newlib/winsup/utils/COPYING.dumper",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/picolibc/COPYING.GPL2",
+      "source": "toolchain/picolibc/COPYING.GPL2",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "evidence": "licenses/toolchain/picolibc/COPYING.NEWLIB",
+      "source": "toolchain/picolibc/COPYING.NEWLIB",
+      "bytes": 78261,
+      "sha256": "fcfb5ec69b6ab52676dcc4dab7cf4338c8000ef97812dadd35b8592a640a8419"
+    },
+    {
+      "evidence": "licenses/toolchain/picolibc/COPYING.picolibc",
+      "source": "toolchain/picolibc/COPYING.picolibc",
+      "bytes": 237194,
+      "sha256": "1e427387b690483dad761268beb0f09a824ecba6132c4dfee78d1fb21a6e75b5"
+    },
+    {
+      "evidence": "licenses/toolchain/zlib/LICENSE",
+      "source": "toolchain/zlib/LICENSE",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "evidence": "licenses/toolchain/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "source": "toolchain/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+      "bytes": 1359,
+      "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+    },
+    {
+      "evidence": "licenses/toolchain/zstd/COPYING",
+      "source": "toolchain/zstd/COPYING",
+      "bytes": 18091,
+      "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+    },
+    {
+      "evidence": "licenses/toolchain/zstd/LICENSE",
+      "source": "toolchain/zstd/LICENSE",
+      "bytes": 1549,
+      "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8"
+    },
+    {
+      "evidence": "licenses/toolchain/zstd/build/LICENSE",
+      "source": "toolchain/zstd/build/LICENSE",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "evidence": "licenses/app-assets/NotoEmoji-OFL.txt",
+      "source": "app-assets/NotoEmoji-OFL.txt",
+      "bytes": 4330,
+      "sha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b"
+    },
+    {
+      "evidence": "licenses/app-assets/Unicode-LICENSE.txt",
+      "source": "app-assets/Unicode-LICENSE.txt",
+      "bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "evidence": "licenses/app-assets/Nayuki-QR-MIT.txt",
+      "source": "main/third_party/qrcodegen.c header",
+      "bytes": 1236,
+      "sha256": "adf9fc352901c471b16017816d79d509299fd402488964781b01563478ee3834"
+    },
+    {
+      "evidence": "licenses/app-assets/PAX-Sky-Mono-MIT.txt",
+      "source": "PAX core/src/fonts/font_bitmap_7x9.c header",
+      "bytes": 1096,
+      "sha256": "93f55eb3620b2c6beff193d96b6ffde9a99190fbc2b7b7ab620440ac876c775a"
+    },
+    {
+      "evidence": "licenses/radio-reference/GPL-3.0.txt",
+      "source": "radio-reference/GPL-3.0.txt",
+      "bytes": 35148,
+      "sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227"
+    }
+  ],
+  "limits": [
+    "Configured dependencies and copied license files are a conservative superset, not a claim every file is in the binary.",
+    "Toolchain notices include build-time software; copying them does not impose the compiler license on app source.",
+    "Application-wide license/author choice, protocol-enum provenance, optional map-pack terms and fresh-device verification remain separate decisions/checks."
+  ]
+}

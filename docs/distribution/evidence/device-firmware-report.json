@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "date_local": "2026-10-23",
+  "timezone": "America/Edmonton",
+  "reported_version": "2.7.18",
+  "source": "User reading of MeshMatsu Settings > About & Diagnostics",
+  "build_suffix_provided": false,
+  "direct_device_interrogation_performed": false,
+  "installed_image_sha256": null,
+  "installed_source_commit": null,
+  "scope": "Reported version confirms the development baseline; it does not attest an exact firmware image, source commit or distributable bundle."
+}

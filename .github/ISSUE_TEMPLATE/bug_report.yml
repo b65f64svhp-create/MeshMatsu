@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a problem with MeshMatsu
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please omit channel keys/QR links, passwords, private messages and precise locations."
+  - type: input
+    id: app_version
+    attributes:
+      label: MeshMatsu version
+      placeholder: v0.62.beta
+    validations:
+      required: true
+  - type: input
+    id: radio_version
+    attributes:
+      label: Radio firmware version
+      description: From Settings → About & Diagnostics
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Explain what you selected or typed, without private message contents.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Additional context
+      description: Screen on/off, USB mode, SD card, and redacted screenshots if relevant.

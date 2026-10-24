@@ -1,0 +1,50 @@
+{
+  "date_local": "2026-10-23",
+  "source": "Public manufacturer recovery service; downloaded over verified HTTPS",
+  "candidates": [
+    {
+      "source_url": "https://recovery.tanmatsu.cloud/firmware/radio/esphosted/merged-binary.bin",
+      "file": "stock-esp-hosted.bin",
+      "bytes": 1485600,
+      "sha256": "4990ae8d236024aba6f9c314ca049314b44505a07955be3c917b22ca5693807a",
+      "embedded_semantic_candidates": [],
+      "device_tested": false,
+      "approved_for_flashing": false,
+      "app_descriptor": {
+        "offset": 65568,
+        "version": "v2.1.0-1-g703b4eb-dirty",
+        "project": "tanmatsu-radio",
+        "time": "23:28:27",
+        "date": "Apr 11 2026",
+        "idf": "v5.5.2"
+      },
+      "chip": "esp32c6",
+      "bootloader_chip_id": 13,
+      "application_chip_id": 13,
+      "source_correspondence_verified": false
+    },
+    {
+      "source_url": "https://recovery.tanmatsu.cloud/firmware/radio/meshtastic/meshtastic-radio.bin",
+      "file": "recovery-meshtastic.bin",
+      "bytes": 1467840,
+      "sha256": "42b75bc17b8458d07b0f198d50ce18affbca501c7cfef79eb0a27848b63be80c",
+      "embedded_semantic_candidates": [
+        "2.7.18.93c425f7f"
+      ],
+      "device_tested": false,
+      "approved_for_flashing": false,
+      "app_descriptor": {
+        "offset": 65568,
+        "version": "",
+        "project": "",
+        "time": "",
+        "date": "",
+        "idf": "5.1.4.240921"
+      },
+      "chip": "esp32c6",
+      "bootloader_chip_id": 13,
+      "application_chip_id": 13,
+      "source_correspondence_verified": false
+    }
+  ]
+}

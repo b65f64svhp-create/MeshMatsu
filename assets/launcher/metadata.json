@@ -1,0 +1,25 @@
+{
+  "name": "MeshMatsu",
+  "description": "Meshtastic messaging for Tanmatsu",
+  "categories": [
+    "communication"
+  ],
+  "version": "62",
+  "icon": {
+    "16x16": "icon16.png",
+    "32x32": "icon32.png",
+    "64x64": "icon64.png"
+  },
+  "application": [
+    {
+      "targets": [
+        "tanmatsu",
+        "konsool"
+      ],
+      "revision": 62,
+      "type": "appfs",
+      "executable": "application.bin",
+      "assets": []
+    }
+  ]
+}
