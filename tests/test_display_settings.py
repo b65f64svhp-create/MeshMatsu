@@ -23,6 +23,15 @@ harness = r'''
 #include "display_settings.h"
 #include "backlight.h"
 #include "nvs.h"
+// Settings equality concerns fields; C struct padding is unspecified.
+static bool same_display_settings(const mesh_display_settings_t *a, const mesh_display_settings_t *b) {
+    return a->screen_brightness == b->screen_brightness &&
+        a->keyboard_brightness == b->keyboard_brightness &&
+        a->timeout_seconds == b->timeout_seconds &&
+        a->unread_light == b->unread_light &&
+        a->night_brightness == b->night_brightness &&
+        a->alert_sources == b->alert_sources;
+}
 #define ESP_LOGW(...) ((void)0)
 static uint8_t durable[8], pending[8];
 static size_t durable_size;
@@ -103,7 +112,7 @@ int main(void) {
     assert(navigate(BSP_INPUT_NAVIGATION_KEY_RETURN));
     assert(screen==10 && keyboard==0 && light_updates==1 && last_activity_us==now && strstr(display_feedback,"Saved"));
     mesh_display_settings_t reloaded=mesh_display_defaults(100,100);
-    assert(mesh_display_load(&reloaded)==0 && !memcmp(&reloaded,&display_settings,sizeof(reloaded)));
+    assert(mesh_display_load(&reloaded)==0 && same_display_settings(&reloaded,&display_settings));
     display_draft.screen_brightness=95;
     ignore_screen_write=true;
     save_display_settings();
@@ -135,7 +144,7 @@ int main(void) {
     durable[0]=2;assert(mesh_display_load(&reloaded)==0&&reloaded.screen_brightness==50&&reloaded.keyboard_brightness==20&&reloaded.timeout_seconds==300);
     assert(mesh_display_save(&reloaded)==0 && durable[0]==3);
     mesh_display_settings_t again=mesh_display_defaults(100,100);
-    assert(mesh_display_load(&again)==0 && !memcmp(&again,&reloaded,sizeof(again)));
+    assert(mesh_display_load(&again)==0 && same_display_settings(&again,&reloaded));
     memcpy(durable,before,8);
     durable_size=3; assert(mesh_display_load(&reloaded)==ESP_ERR_INVALID_ARG);
     durable_size=8; write_error=9; count=commits;
