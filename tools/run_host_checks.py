@@ -3,6 +3,7 @@
 from pathlib import Path
 import argparse
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -28,37 +29,51 @@ def main():
                    if p.suffix in ('.py', '.c') and p.name != 'test_key_backup_crypto.py')
     if not tests:
         parser.error('no matching host checks')
-    for test in tests:
-        with tempfile.TemporaryDirectory(prefix='meshmatsu-check-') as folder:
-            if test.suffix == '.py':
-                commands = [[sys.executable, str(test)]]
-                family = 'Python'
-            else:
-                flags, sources = C_EXTRAS.get(test.name, ([], []))
-                executable = str(Path(folder) / 'test')
-                commands = [[
-                    'clang', '-std=c11', '-fsanitize=address,undefined',
-                    '-I', str(ROOT / 'tests/stubs'), '-I', str(ROOT / 'main'),
-                    *flags, str(test), *[str(ROOT / 'main' / name) for name in sources],
-                    '-lm', '-o', executable], [executable]]
-                family = 'C'
-            output = []
-            for command in commands:
-                result = subprocess.run(command, cwd=folder, env=env, text=True,
-                                        stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                output.append(result.stdout)
-                if result.returncode:
-                    break
-            ok = result.returncode == 0
-            print(f'{test.name} {"PASS" if ok else "FAIL"}', flush=True)
-            if ok:
-                passed[family] += 1
-            else:
-                failed.append(test.name)
-            # Preserve diagnostics, including warnings from a successful compiler.
-            combined = ''.join(output)
-            if not ok or 'warning:' in combined:
-                print(combined, flush=True)
+    # Python harnesses invoke clang themselves. A PATH-local wrapper applies
+    # glibc's feature selection to both those builds and the C suites, while
+    # leaving production compiler settings and the installed system untouched.
+    with tempfile.TemporaryDirectory(prefix='meshmatsu-compilers-') as compiler_dir:
+        if sys.platform.startswith('linux'):
+            compiler = shutil.which('clang', path=env.get('PATH'))
+            if not compiler:
+                parser.error('clang is required for host checks')
+            wrapper = Path(compiler_dir) / 'clang'
+            wrapper.write_text(
+                '#!/usr/bin/env python3\nimport os, sys\n'
+                + f'os.execv({compiler!r}, [{compiler!r}, "-D_GNU_SOURCE", *sys.argv[1:]])\n')
+            wrapper.chmod(0o755)
+            env['PATH'] = compiler_dir + os.pathsep + env.get('PATH', '')
+        for test in tests:
+            with tempfile.TemporaryDirectory(prefix='meshmatsu-check-') as folder:
+                if test.suffix == '.py':
+                    commands = [[sys.executable, str(test)]]
+                    family = 'Python'
+                else:
+                    flags, sources = C_EXTRAS.get(test.name, ([], []))
+                    executable = str(Path(folder) / 'test')
+                    commands = [[
+                        'clang', '-std=c11', '-fsanitize=address,undefined',
+                        '-I', str(ROOT / 'tests/stubs'), '-I', str(ROOT / 'main'),
+                        *flags, str(test), *[str(ROOT / 'main' / name) for name in sources],
+                        '-lm', '-o', executable], [executable]]
+                    family = 'C'
+                output = []
+                for command in commands:
+                    result = subprocess.run(command, cwd=folder, env=env, text=True,
+                                            stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                    output.append(result.stdout)
+                    if result.returncode:
+                        break
+                ok = result.returncode == 0
+                print(f'{test.name} {"PASS" if ok else "FAIL"}', flush=True)
+                if ok:
+                    passed[family] += 1
+                else:
+                    failed.append(test.name)
+                # Preserve diagnostics, including warnings from a successful compiler.
+                combined = ''.join(output)
+                if not ok or 'warning:' in combined:
+                    print(combined, flush=True)
     print(f'PASSED: {sum(passed.values())} ({passed["Python"]} Python, {passed["C"]} C) '
           f'FAILED: {failed}', flush=True)
     print('SDK-specific crypto harness is separate (test_key_backup_crypto.py).', flush=True)
